@@ -41,3 +41,7 @@
 	anchored = TRUE
 	plane = PLANE_SPACE
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
+
+/obj/effect/abstract/mirage_holder/Destroy(force)
+	vis_contents.Cut()
+	. = ..()

@@ -17177,9 +17177,6 @@
 /turf/open/floor/mineral/titanium/blue,
 /area/centcom/evac)
 "LP" = (
-/obj/machinery/computer/shuttle{
-	dir = 1
-	},
 /turf/open/floor/mineral/titanium/blue,
 /area/centcom/evac)
 "LQ" = (
