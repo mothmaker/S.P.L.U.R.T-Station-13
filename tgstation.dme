@@ -3524,7 +3524,6 @@
 #include "code\modules\shuttle\super_cruise\orbital_map_components\orbital_objects\space_station.dm"
 #include "code\modules\shuttle\super_cruise\orbital_map_components\orbital_objects\star.dm"
 #include "code\modules\shuttle\super_cruise\orbital_map_components\orbital_objects\z_linked.dm"
-#include "code\modules\shuttle\super_cruise\orbital_map_components\orbital_map.dm"
 #include "code\modules\shuttle\super_cruise\orbital_map_components\orbital_object.dm"
 #include "code\modules\shuttle\super_cruise\orbital_map_components\orbital_vector.dm"
 #include "code\modules\shuttle\super_cruise\shuttle_components\plasma_refiner.dm"
