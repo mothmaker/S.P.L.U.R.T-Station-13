@@ -72,8 +72,10 @@ PROCESSING_SUBSYSTEM_DEF(orbits)
 	//Create initial ruins
 	for(var/i in 1 to initial_space_ruins)
 		new /datum/orbital_object/z_linked/beacon/ruin/spaceruin()
-	for(var/i in 1 to initial_objective_beacons)
-		new /datum/orbital_object/z_linked/beacon/ruin()
+
+	/*for(var/i in 1 to initial_objective_beacons)
+		new /datum/orbital_object/z_linked/beacon/ruin()*/
+
 	//Create asteroid belt
 	for(var/i in 1 to initial_asteroids)
 		new /datum/orbital_object/z_linked/beacon/ruin/asteroid()

@@ -32,7 +32,7 @@
 /datum/orbital_object/z_linked/beacon/ruin/asteroid
 	name = "Asteroid"
 
-/datum/orbital_object/z_linked/beacon/ruinasteroid/New()
+/datum/orbital_object/z_linked/beacon/ruin/asteroid/New()
 	. = ..()
 	radius = rand(30, 70)
 
@@ -66,13 +66,14 @@
 /datum/orbital_object/z_linked/beacon/ruin/spaceruin/assign_z_level()
 	var/datum/space_level/assigned_space_level = SSzclear.get_free_z_level()
 	linked_z_level = list(assigned_space_level)
+	assigned_space_level.traits += "Space Ruins"
 	assigned_space_level.orbital_body = src
-	seedRuins(list(assigned_space_level.z_value), CONFIG_GET(number/space_budget), /area/space, SSmapping.space_ruins_templates)
+	seedRuins(list(assigned_space_level.z_value), CONFIG_GET(number/space_budget), list(/area/space), SSmapping.space_ruins_templates)
 
 /datum/orbital_object/z_linked/beacon/ruin/spaceruin/post_map_setup()
 	//Orbit around the systems sun
 	var/datum/orbital_map/linked_map = SSorbits.orbital_maps[orbital_map_index]
-	set_orbitting_around_body(linked_map.center, 4000 + 250 * rand(4, 20))
+	set_orbitting_around_body(linked_map.center, 2000 + 250 * rand(4, 20))
 
 //====================
 // Random-Ruin z-levels
