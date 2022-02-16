@@ -295,10 +295,12 @@
 	var/list/engine_list = list()
 	///if this shuttle can move docking ports other than the one it is docked at
 	var/can_move_docking_ports = FALSE
-  
+
 	var/list/hidden_turfs = list()
 	//The virtual Z-Value of the shuttle
 	var/virtual_z
+
+	var/shuttle_object_type = /datum/orbital_object/shuttle
 	/// parallax speed in seconds per loop
 	var/parallax_speed = 25
 
@@ -321,7 +323,7 @@
 			linkup()
 		else
 			SSshuttle.assoc_mobile[id] = 1
-	var/shuttle_object_type = /datum/orbital_object/shuttle
+	shuttle_object_type = /datum/orbital_object/shuttle
 
 /obj/docking_port/mobile/proc/register()
 	SSshuttle.mobile += src
