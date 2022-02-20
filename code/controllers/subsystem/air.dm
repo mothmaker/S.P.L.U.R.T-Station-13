@@ -434,12 +434,6 @@ SUBSYSTEM_DEF(air)
 			return
 	*/
 
-/datum/controller/subsystem/air/proc/pause_z(z_level)
-	LAZYADD(paused_z_levels, z_level)
-
-/datum/controller/subsystem/air/proc/unpause_z(z_level)
-	LAZYREMOVE(paused_z_levels, z_level)
-
 /datum/controller/subsystem/air/proc/process_excited_groups(resumed = 0)
 	if(process_excited_groups_auxtools(resumed,TICK_REMAINING_MS))
 		pause()

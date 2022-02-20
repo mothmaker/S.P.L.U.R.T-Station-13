@@ -21,3 +21,5 @@
 	if(!A)
 		return 0
 	return A.get_virtual_z(T)
+
+#undef VIRTUAL_Z_START
