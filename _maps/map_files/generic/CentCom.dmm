@@ -1122,12 +1122,6 @@
 	icon_state = "white"
 	},
 /area/holodeck/rec_center/medical)
-"dd" = (
-/obj/machinery/stasis,
-/turf/open/floor/holofloor{
-	icon_state = "white"
-	},
-/area/holodeck/rec_center/medical)
 "de" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 8
@@ -1264,6 +1258,14 @@
 "dx" = (
 /obj/structure/table/wood/fancy,
 /obj/item/storage/book/bible,
+/turf/open/floor/holofloor{
+	dir = 8;
+	icon_state = "dark"
+	},
+/area/holodeck/rec_center/chapelcourt)
+"dy" = (
+/obj/structure/table/wood/fancy,
+/obj/item/book/manual/splurt_space_law,
 /turf/open/floor/holofloor{
 	dir = 8;
 	icon_state = "dark"
@@ -2089,6 +2091,17 @@
 	},
 /turf/closed/indestructible/riveted,
 /area/space)
+"fy" = (
+/obj/structure/table,
+/obj/item/storage/fancy/egg_box,
+/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/rice,
+/obj/item/reagent_containers/food/condiment/rice,
+/obj/item/reagent_containers/food/condiment/rice,
+/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/flour,
+/turf/open/floor/plasteel/cafeteria,
+/area/slavers)
 "fz" = (
 /turf/open/floor/plasteel,
 /area/tdome/arena_source)
@@ -2219,22 +2232,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/tdome/arena_source)
-"fR" = (
-/obj/item/book/manual/splurt_space_law,
-/obj/item/taperecorder,
-/obj/structure/table/wood,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/control)
 "fS" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 8
@@ -2922,6 +2919,13 @@
 /obj/machinery/capture_the_flag/red,
 /turf/open/floor/circuit/green/anim,
 /area/ctf)
+"hH" = (
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "hI" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -3688,9 +3692,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
-"jA" = (
-/turf/open/floor/plasteel/cafeteria,
-/area/slavers)
 "jB" = (
 /obj/structure/noticeboard{
 	dir = 8;
@@ -3947,6 +3948,22 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
+"kc" = (
+/obj/item/book/manual/splurt_space_law,
+/obj/item/taperecorder,
+/obj/structure/table/wood,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -4489,11 +4506,12 @@
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
 "lm" = (
-/obj/machinery/shower{
-	dir = 8;
-	pixel_y = -4
+/obj/structure/flora/grass/both,
+/obj/effect/light_emitter{
+	set_cap = 1;
+	set_luminosity = 4
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/plating/asteroid/snow/airless,
 /area/slavers)
 "ln" = (
 /obj/machinery/light,
@@ -4590,6 +4608,19 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
+"ly" = (
+/obj/machinery/computer/shuttle/slaver/recall,
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "lz" = (
 /obj/structure/table/wood,
 /obj/item/storage/briefcase,
@@ -5083,9 +5114,6 @@
 /obj/effect/baseturf_helper/asteroid/snow,
 /turf/closed/indestructible/rock/snow,
 /area/syndicate_mothership)
-"mC" = (
-/turf/closed/indestructible/riveted,
-/area/slavers)
 "mD" = (
 /turf/closed/indestructible/riveted,
 /area/centcom/ferry)
@@ -5264,6 +5292,21 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel,
+/area/centcom/control)
+"mU" = (
+/obj/item/book/manual/splurt_space_law,
+/obj/structure/table/wood,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "mV" = (
 /obj/machinery/vending/cola,
@@ -5532,24 +5575,6 @@
 /obj/structure/flora/bush,
 /turf/open/floor/plating/asteroid/snow/airless,
 /area/syndicate_mothership)
-"ny" = (
-/obj/item/retractor,
-/obj/item/hemostat,
-/obj/structure/table,
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/machinery/defibrillator_mount/loaded{
-	pixel_y = 28
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "nz" = (
 /obj/machinery/light/small{
 	brightness = 3;
@@ -6787,14 +6812,10 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "px" = (
-/obj/effect/turf_decal/bot_white,
-/obj/structure/closet/slaver,
+/obj/machinery/vending/clothing,
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
 	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
 /area/slavers)
@@ -6813,6 +6834,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/supplypod)
+"pA" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/slavers)
 "pB" = (
 /obj/machinery/light{
 	dir = 1
@@ -6834,15 +6861,17 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"pC" = (
-/obj/structure/holohoop{
-	dir = 4
+"pE" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "door"
 	},
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
+/area/slavers)
+"pF" = (
+/obj/structure/sign/poster/contraband/yes_erp{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/freezer,
 /area/slavers)
 "pG" = (
 /obj/machinery/biogenerator,
@@ -7012,6 +7041,16 @@
 /obj/effect/landmark/ai_multicam_room,
 /turf/open/ai_visible,
 /area/ai_multicam_room)
+"pY" = (
+/obj/structure/sink/kitchen{
+	dir = 8;
+	pixel_x = 11
+	},
+/obj/structure/mirror{
+	pixel_x = 28
+	},
+/turf/open/floor/plasteel/freezer,
+/area/slavers)
 "pZ" = (
 /obj/machinery/washing_machine,
 /turf/open/floor/plasteel/freezer,
@@ -7021,6 +7060,28 @@
 /obj/effect/light_emitter,
 /turf/open/floor/plating/asteroid/snow/airless,
 /area/syndicate_mothership)
+"qb" = (
+/obj/structure/table/wood,
+/obj/item/folder/red,
+/obj/item/book/manual/splurt_space_law,
+/obj/item/restraints/handcuffs,
+/obj/item/assembly/flash/handheld,
+/obj/machinery/airalarm{
+	dir = 1;
+	pixel_y = -22
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/ferry)
 "qc" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
@@ -7077,6 +7138,23 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/ferry)
+"qh" = (
+/obj/structure/closet/crate/hydroponics,
+/obj/item/paper/guides/jobs/hydroponics,
+/obj/item/seeds/onion,
+/obj/item/seeds/garlic,
+/obj/item/seeds/potato,
+/obj/item/seeds/tomato,
+/obj/item/seeds/carrot,
+/obj/item/seeds/grass,
+/obj/item/seeds/ambrosia,
+/obj/item/seeds/wheat,
+/obj/item/seeds/pumpkin,
+/obj/effect/spawner/lootdrop/prison_contraband,
+/obj/effect/turf_decal/bot,
+/obj/machinery/light,
+/turf/open/floor/plasteel,
+/area/slavers)
 "qi" = (
 /obj/structure/table/wood,
 /obj/item/storage/secure/briefcase{
@@ -7350,39 +7428,15 @@
 	},
 /turf/open/floor/plating,
 /area/syndicate_mothership)
-"qM" = (
-/obj/machinery/vending/cola/sodie,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
+"qL" = (
+/obj/structure/sign/poster/official/obey{
+	pixel_x = -32
 	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
-"qN" = (
-/obj/effect/turf_decal/vg_decals/numbers/three,
 /turf/open/floor/plasteel,
 /area/slavers)
-"qO" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/machinery/sleeper,
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "qP" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel/dark,
+/obj/structure/bed/matress,
+/turf/open/floor/plating,
 /area/slavers)
 "qQ" = (
 /obj/machinery/door/airlock/centcom{
@@ -7470,13 +7524,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate_mothership)
-"re" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/bar,
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "rf" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -7502,9 +7549,28 @@
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
 "rj" = (
-/obj/structure/flora/bush,
-/turf/open/floor/plating/asteroid/snow/airless,
+/obj/effect/turf_decal/stripes/corner,
+/obj/machinery/computer/cryopod{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel,
 /area/slavers)
+"rk" = (
+/obj/structure/table/reinforced,
+/obj/item/book/manual/splurt_space_law,
+/obj/item/taperecorder,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/ferry)
 "rl" = (
 /obj/machinery/computer/auxillary_base{
 	pixel_y = 32
@@ -7982,13 +8048,9 @@
 /turf/open/floor/engine/cult,
 /area/wizard_station)
 "rZ" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
+/obj/structure/punching_bag,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel,
 /area/slavers)
 "sc" = (
 /obj/docking_port/stationary{
@@ -8001,14 +8063,11 @@
 	},
 /turf/open/floor/plating,
 /area/syndicate_mothership)
-"se" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
+"sd" = (
+/obj/structure/table,
+/obj/machinery/microwave,
+/obj/structure/window/reinforced,
+/turf/open/floor/plasteel/cafeteria,
 /area/slavers)
 "sf" = (
 /obj/effect/landmark/holding_facility,
@@ -8017,16 +8076,6 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"sg" = (
-/obj/machinery/deepfryer,
-/turf/open/floor/plasteel/cafeteria,
-/area/slavers)
-"sh" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/slavers)
 "si" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/beer{
@@ -8044,36 +8093,28 @@
 /turf/open/floor/plasteel,
 /area/syndicate_mothership)
 "sj" = (
-/obj/structure/table/wood,
-/obj/item/folder/red,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/restraints/handcuffs,
-/obj/item/assembly/flash/handheld,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/obj/machinery/vending/assist,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/plasteel,
+/area/slavers)
 "sk" = (
 /obj/machinery/door/airlock/wood{
 	name = "Bathroom"
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/centcom/holding)
-"sl" = (
-/obj/structure/flora/bush,
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
+"sm" = (
+/turf/closed/indestructible/riveted,
+/area/slavers)
+"so" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
 	},
-/turf/open/floor/plating/asteroid/snow/airless,
+/obj/effect/turf_decal/tile/bar{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "sq" = (
 /obj/machinery/computer/shuttle/white_ship{
@@ -8507,13 +8548,6 @@
 /obj/item/tank/internals/plasmaman/belt/full,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"tb" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 6
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/slavers)
 "tc" = (
 /obj/machinery/door/airlock/wood/glass{
 	name = "Dorms"
@@ -8540,13 +8574,18 @@
 /obj/item/soap/syndie,
 /turf/open/floor/plasteel/freezer,
 /area/syndicate_mothership)
-"th" = (
-/obj/structure/window/reinforced{
-	dir = 8
+"ti" = (
+/obj/machinery/vending/snack/random,
+/obj/effect/turf_decal/tile/red{
+	dir = 4
 	},
-/obj/machinery/hydroponics/soil,
-/obj/item/reagent_containers/glass/bucket,
-/turf/open/floor/grass,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
+"tk" = (
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "tl" = (
 /obj/effect/turf_decal/stripes/corner,
@@ -8558,6 +8597,12 @@
 	},
 /turf/open/floor/plating,
 /area/syndicate_mothership)
+"tn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "to" = (
 /obj/machinery/computer/shuttle/ferry{
 	dir = 4
@@ -8617,10 +8662,6 @@
 "tv" = (
 /turf/open/floor/holofloor/wood,
 /area/holodeck/rec_center/wrestlingarena)
-"tw" = (
-/obj/structure/chair/stool,
-/turf/open/floor/plasteel,
-/area/slavers)
 "tx" = (
 /obj/structure/table/wood,
 /obj/item/storage/dice,
@@ -8907,24 +8948,8 @@
 /turf/open/floor/plasteel,
 /area/centcom/supplypod)
 "tZ" = (
-/obj/structure/table,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/item/storage/firstaid/regular{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/storage/firstaid/fire,
-/obj/item/storage/firstaid/brute{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue,
-/turf/open/floor/plasteel/dark,
+/obj/effect/turf_decal/vg_decals/numbers/two,
+/turf/open/floor/plasteel,
 /area/slavers)
 "uc" = (
 /obj/effect/turf_decal/tile/green{
@@ -8963,6 +8988,18 @@
 /obj/structure/dresser,
 /turf/open/floor/carpet/royalblue,
 /area/centcom/holding)
+"ui" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/condiment/peppermill{
+	pixel_x = 3;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/slavers)
 "uj" = (
 /obj/item/clipboard,
 /obj/item/folder/red,
@@ -9257,23 +9294,21 @@
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
 "uI" = (
-/obj/structure/table,
-/turf/open/floor/plasteel/cafeteria,
+/obj/effect/turf_decal/vg_decals/numbers/four,
+/turf/open/floor/plasteel,
 /area/slavers)
 "uJ" = (
 /obj/effect/baseturf_helper/asteroid/snow,
 /turf/closed/indestructible/riveted,
 /area/syndicate_mothership)
-"uK" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 9
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/slavers)
 "uL" = (
-/obj/machinery/processor,
-/turf/open/floor/plasteel/cafeteria,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "uM" = (
 /obj/structure/mirror{
@@ -9565,15 +9600,30 @@
 /turf/open/floor/carpet/red,
 /area/centcom/holding)
 "vq" = (
-/obj/structure/table,
-/obj/item/storage/fancy/egg_box,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/rice,
-/obj/item/reagent_containers/food/condiment/rice,
-/obj/item/reagent_containers/food/condiment/rice,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
-/turf/open/floor/plasteel/cafeteria,
+/obj/structure/rack,
+/obj/item/electropack/shockcollar/slave{
+	pixel_x = -2;
+	pixel_y = -2
+	},
+/obj/item/electropack/shockcollar/slave{
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
+"vs" = (
+/obj/structure/flora/bush,
+/turf/open/floor/plating/asteroid/snow/airless,
 /area/slavers)
 "vt" = (
 /obj/structure/rack,
@@ -9613,11 +9663,9 @@
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
 "vz" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "slavers_cell4"
-	},
-/turf/open/floor/plating,
+/obj/structure/table,
+/obj/item/toy/cards/deck,
+/turf/open/floor/plasteel,
 /area/slavers)
 "vA" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -9975,12 +10023,21 @@
 /turf/open/floor/carpet,
 /area/wizard_station)
 "we" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
 	},
-/obj/effect/turf_decal/tile/bar{
-	dir = 8
+/obj/machinery/sleeper{
+	dir = 4
 	},
+/turf/open/floor/plasteel,
+/area/centcom/control)
+"wf" = (
+/obj/item/storage/box/handcuffs{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/box/handcuffs,
+/obj/structure/table,
 /turf/open/floor/plasteel/dark,
 /area/slavers)
 "wh" = (
@@ -9996,22 +10053,6 @@
 /obj/item/bedsheet/random,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"wk" = (
-/obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/taperecorder,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/evac)
 "wl" = (
 /obj/structure/table/wood,
 /obj/item/paicard,
@@ -10030,10 +10071,25 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate_mothership)
+"wn" = (
+/obj/structure/chair/wood/normal{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "wo" = (
-/obj/structure/table,
-/obj/item/reagent_containers/rag/towel/syndicate,
-/turf/open/floor/plasteel/freezer,
+/obj/structure/flora/bush,
+/obj/effect/light_emitter{
+	set_cap = 1;
+	set_luminosity = 4
+	},
+/turf/open/floor/plating/asteroid/snow/airless,
 /area/slavers)
 "wp" = (
 /turf/open/floor/plasteel/dark,
@@ -10282,10 +10338,20 @@
 /turf/open/floor/carpet,
 /area/wizard_station)
 "wS" = (
-/obj/structure/sign/poster/contraband/yes_erp{
-	pixel_y = 32
+/obj/structure/table/wood,
+/obj/item/pizzabox/margherita{
+	pixel_y = 12
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/wood,
+/area/slavers)
+"wT" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "wU" = (
 /obj/machinery/door/airlock/wood{
@@ -10294,6 +10360,9 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"wV" = (
+/turf/open/space/basic,
+/area/slavers)
 "wX" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -10311,12 +10380,10 @@
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
 "wZ" = (
-/obj/structure/window/reinforced{
+/obj/machinery/light{
 	dir = 8
 	},
-/obj/machinery/hydroponics/soil,
-/obj/item/plant_analyzer,
-/turf/open/floor/grass,
+/turf/open/floor/plasteel/cafeteria,
 /area/slavers)
 "xa" = (
 /obj/machinery/door/window/northright{
@@ -10546,25 +10613,13 @@
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
 "xC" = (
-/obj/machinery/door/airlock/external,
-/obj/structure/fans/tiny,
-/turf/open/floor/plating,
-/area/slavers)
-"xD" = (
-/obj/structure/window/reinforced{
-	dir = 8
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 4
 	},
-/obj/machinery/hydroponics/soil,
-/turf/open/floor/grass,
-/area/slavers)
-"xE" = (
-/obj/machinery/vending/assist,
-/obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plasteel,
-/area/slavers)
-"xF" = (
-/obj/structure/closet/crate,
-/obj/effect/turf_decal/delivery,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/slavers)
 "xG" = (
@@ -10583,6 +10638,13 @@
 /obj/item/bedsheet/syndie,
 /turf/open/floor/plasteel/dark,
 /area/syndicate_mothership)
+"xK" = (
+/obj/machinery/cryopod{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "xL" = (
 /obj/structure/table/wood/bar,
 /obj/structure/mirror{
@@ -10597,19 +10659,8 @@
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
 "xM" = (
-/obj/machinery/button/door{
-	id = "slavers_cell4";
-	name = "privacy shutters";
-	pixel_y = -26
-	},
-/turf/open/floor/plating,
-/area/slavers)
-"xN" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/slavers)
+/turf/open/floor/circuit/green,
+/area/slavers/export)
 "xQ" = (
 /obj/effect/turf_decal/delivery,
 /obj/machinery/light,
@@ -10742,14 +10793,8 @@
 /turf/open/floor/mineral/titanium,
 /area/centcom/evac)
 "yh" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
-/area/slavers)
-"yi" = (
-/obj/structure/table,
-/obj/item/kitchen/rollingpin,
-/obj/item/kitchen/knife,
-/turf/open/floor/plasteel/cafeteria,
+/obj/machinery/light,
+/turf/open/floor/plasteel/freezer,
 /area/slavers)
 "yj" = (
 /obj/machinery/door/airlock/centcom{
@@ -10989,22 +11034,6 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/grass,
 /area/wizard_station)
-"yL" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/cafeteria,
-/area/slavers)
-"yM" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/bar,
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "yN" = (
 /obj/structure/table/reinforced,
 /obj/item/paper/pamphlet/centcom/visitor_info,
@@ -11016,9 +11045,12 @@
 	},
 /turf/open/floor/plating,
 /area/syndicate_mothership)
-"yT" = (
-/obj/structure/bed/matress,
-/turf/open/floor/plating,
+"yS" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "yU" = (
 /obj/machinery/door/firedoor,
@@ -11135,11 +11167,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/ferry)
-"zc" = (
-/obj/structure/table,
-/obj/item/soap/syndie,
-/turf/open/floor/plasteel/freezer,
-/area/slavers)
 "zd" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-22"
@@ -11284,23 +11311,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood,
 /area/syndicate_mothership)
-"zv" = (
-/obj/structure/bed{
-	dir = 8
-	},
-/obj/item/bedsheet/syndie{
-	dir = 8
-	},
-/obj/effect/landmark/start/slaver_leader,
-/turf/open/floor/wood,
-/area/slavers)
-"zw" = (
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/open/floor/plating/asteroid/snow/airless,
-/area/slavers)
 "zx" = (
 /obj/structure/closet/syndicate/personal,
 /obj/effect/turf_decal/stripes/line{
@@ -11507,6 +11517,12 @@
 	},
 /turf/open/floor/plating,
 /area/syndicate_mothership)
+"zT" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/slavers)
 "zU" = (
 /obj/structure/closet/crate/freezer,
 /turf/open/floor/plasteel/cafeteria,
@@ -11540,6 +11556,12 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"zZ" = (
+/obj/structure/table,
+/obj/item/storage/dice,
+/obj/item/instrument/piano_synth,
+/turf/open/floor/plasteel,
+/area/slavers)
 "Aa" = (
 /turf/open/floor/mech_bay_recharge_floor,
 /area/syndicate_mothership)
@@ -11779,10 +11801,12 @@
 /turf/open/floor/grass,
 /area/wizard_station)
 "AC" = (
-/obj/structure/chair{
-	dir = 4
+/obj/structure/window/reinforced{
+	dir = 8
 	},
-/turf/open/floor/plasteel,
+/obj/machinery/hydroponics/soil,
+/obj/item/reagent_containers/glass/bucket,
+/turf/open/floor/grass,
 /area/slavers)
 "AD" = (
 /obj/machinery/door/airlock/centcom{
@@ -11791,21 +11815,31 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate_mothership)
-"AE" = (
-/obj/effect/turf_decal/stripes/white/line{
+"AF" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/machinery/light/small{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/slavers)
-"AF" = (
-/obj/machinery/light,
 /turf/open/floor/plasteel/freezer,
 /area/slavers)
 "AG" = (
 /obj/structure/ladder/unbreakable/binary/space,
 /turf/open/indestructible/airblock,
 /area/fabric_of_reality)
+"AI" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/structure/sign/directions/engineering{
+	desc = "A sign that shows there are doors here. There are doors everywhere!";
+	icon_state = "doors";
+	name = "WARNING: EXTERNAL AIRLOCK";
+	pixel_x = -32
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "AJ" = (
 /obj/structure/chair/comfy/brown{
 	color = "#596479";
@@ -12016,12 +12050,6 @@
 /obj/item/reagent_containers/food/snacks/meat/slab/xeno,
 /turf/open/floor/grass,
 /area/wizard_station)
-"Bj" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/slavers)
 "Bl" = (
 /obj/machinery/mech_bay_recharge_port,
 /turf/open/floor/plating,
@@ -12035,20 +12063,31 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Bo" = (
-/obj/machinery/hydroponics/soil,
-/obj/item/shovel/spade,
-/turf/open/floor/grass,
+"Bn" = (
+/obj/machinery/seed_extractor,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel,
 /area/slavers)
 "Bp" = (
-/turf/open/floor/plating,
+/obj/structure/table,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/item/storage/firstaid/regular{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/brute{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/plasteel/dark,
 /area/slavers)
-"Bq" = (
-/obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/taperecorder,
-/turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
 "Bu" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -12069,6 +12108,12 @@
 /obj/machinery/computer/card/centcom{
 	dir = 1
 	},
+/turf/open/floor/plasteel/grimy,
+/area/centcom/ferry)
+"Bw" = (
+/obj/structure/table/reinforced,
+/obj/item/book/manual/splurt_space_law,
+/obj/item/taperecorder,
 /turf/open/floor/plasteel/grimy,
 /area/centcom/ferry)
 "Bx" = (
@@ -12239,13 +12284,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
-"BJ" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 5
-	},
-/obj/machinery/stasis,
-/turf/open/floor/plasteel,
-/area/centcom/control)
 "BK" = (
 /obj/item/storage/firstaid/fire,
 /obj/item/storage/firstaid/regular{
@@ -12345,21 +12383,13 @@
 	},
 /turf/open/floor/engine/cult,
 /area/wizard_station)
-"BU" = (
-/obj/structure/closet/crate/hydroponics,
-/obj/item/paper/guides/jobs/hydroponics,
-/obj/item/seeds/onion,
-/obj/item/seeds/garlic,
-/obj/item/seeds/potato,
-/obj/item/seeds/tomato,
-/obj/item/seeds/carrot,
-/obj/item/seeds/grass,
-/obj/item/seeds/ambrosia,
-/obj/item/seeds/wheat,
-/obj/item/seeds/pumpkin,
-/obj/effect/spawner/lootdrop/prison_contraband,
-/obj/effect/turf_decal/bot,
-/obj/machinery/light,
+"BT" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/structure/sign/poster/contraband/lizard{
+	pixel_x = -32
+	},
 /turf/open/floor/plasteel,
 /area/slavers)
 "BV" = (
@@ -12505,36 +12535,32 @@
 	},
 /turf/open/floor/engine/cult,
 /area/wizard_station)
-"Cj" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red,
-/turf/open/floor/plasteel/dark,
-/area/slavers)
-"Cl" = (
-/turf/open/space/basic,
-/area/slavers)
-"Cm" = (
-/turf/open/floor/plasteel/freezer,
-/area/slavers)
-"Cn" = (
-/obj/structure/chair/wood/normal{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
+"Co" = (
+/obj/structure/flora/grass/both,
+/turf/open/floor/plating/asteroid/snow/airless,
 /area/slavers)
 "Cp" = (
 /obj/structure/statue/uranium/nuke,
 /turf/open/floor/plating/asteroid/snow/airless,
 /area/syndicate_mothership)
+"Cq" = (
+/obj/structure/table/wood,
+/obj/item/folder/red,
+/obj/item/book/manual/splurt_space_law,
+/obj/item/restraints/handcuffs,
+/obj/item/assembly/flash/handheld,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/ferry)
 "Cr" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
@@ -12776,6 +12802,26 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/ferry)
+"CH" = (
+/obj/structure/table/reinforced,
+/obj/item/book/manual/splurt_space_law,
+/obj/item/taperecorder,
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "CI" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -12889,12 +12935,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/evac)
-"CQ" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/cafeteria,
-/area/slavers)
 "CR" = (
 /obj/machinery/computer/security{
 	dir = 8
@@ -12947,6 +12987,9 @@
 /obj/item/stack/tile/carpet/royalblue/fifty,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"CV" = (
+/turf/open/floor/plating,
+/area/slavers)
 "CX" = (
 /obj/structure/closet/secure_closet/security,
 /obj/item/storage/belt/security/full,
@@ -13135,16 +13178,20 @@
 "Di" = (
 /turf/closed/indestructible/riveted,
 /area/ai_multicam_room)
+"Dj" = (
+/obj/machinery/vending/cola/sodie,
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "Dk" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/cafeteria,
 /area/syndicate_mothership)
-"Dl" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Cell 2"
-	},
-/turf/open/floor/plating,
-/area/slavers)
 "Dm" = (
 /obj/machinery/door/airlock/wood{
 	id_tag = "Ninja2";
@@ -13171,11 +13218,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate_mothership)
-"Dp" = (
-/obj/machinery/biogenerator,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/slavers)
 "Dq" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/turf_decal/stripes/line{
@@ -13247,15 +13289,27 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/evac)
-"Dy" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/slavers)
 "Dz" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
 /obj/item/pen,
 /obj/machinery/light,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"DA" = (
+/obj/structure/table/reinforced,
+/obj/item/book/manual/splurt_space_law,
+/obj/item/taperecorder,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -13746,6 +13800,12 @@
 /obj/structure/barricade/wooden,
 /turf/open/floor/engine/cult,
 /area/wizard_station)
+"ED" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/slavers)
 "EE" = (
 /obj/structure/closet/crate/bin,
 /obj/effect/turf_decal/tile/neutral{
@@ -13948,9 +14008,12 @@
 /turf/open/floor/engine/cult,
 /area/wizard_station)
 "EZ" = (
-/obj/effect/turf_decal/vg_decals/numbers/two,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/stasis,
 /turf/open/floor/plasteel,
-/area/slavers)
+/area/centcom/control)
 "Fa" = (
 /obj/structure/table/wood,
 /obj/item/instrument/piano_synth,
@@ -13966,8 +14029,23 @@
 /area/centcom/holding)
 "Fc" = (
 /obj/structure/table,
-/obj/item/storage/box/donkpockets,
-/turf/open/floor/plasteel/cafeteria,
+/obj/item/storage/firstaid/regular{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/firstaid/o2,
+/obj/item/storage/firstaid/toxin{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "Fe" = (
 /turf/closed/indestructible/wood,
@@ -13990,11 +14068,6 @@
 /obj/structure/closet/crate/bin,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Fl" = (
-/obj/effect/turf_decal/stripes/white/line,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/slavers)
 "Fm" = (
 /obj/machinery/shower{
 	dir = 4
@@ -14139,14 +14212,10 @@
 /turf/open/floor/plasteel/white,
 /area/tdome/tdomeobserve)
 "FC" = (
-/obj/machinery/vending/cigarette/syndicate,
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
+/obj/effect/turf_decal/tile/bar{
+	dir = 8
 	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
+/obj/effect/turf_decal/tile/bar,
 /turf/open/floor/plasteel/dark,
 /area/slavers)
 "FD" = (
@@ -14285,15 +14354,11 @@
 	},
 /turf/open/floor/engine/cult,
 /area/wizard_station)
-"FU" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
+"FV" = (
+/obj/structure/chair{
 	dir = 4
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/slavers)
 "FW" = (
 /obj/structure/window/reinforced{
@@ -14311,6 +14376,14 @@
 	},
 /turf/open/floor/plasteel/stairs,
 /area/centcom/holding)
+"FY" = (
+/obj/structure/closet,
+/obj/effect/turf_decal/bot,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "FZ" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -14533,23 +14606,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/syndicate_mothership)
-"GB" = (
-/obj/structure/noticeboard{
-	pixel_x = -32
-	},
-/obj/item/paper{
-	info = "Kidnap crew, attach a slave collar around their neck, set a price with the computer, wait for the station to pay the ransom, put slave in the green area and 'export' them with the computer";
-	name = "dummies guide to the slave trade"
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red,
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "GC" = (
 /obj/structure/table,
 /obj/structure/bedsheetbin,
@@ -14751,6 +14807,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/tdome/tdomeobserve)
+"GN" = (
+/obj/effect/light_emitter{
+	set_cap = 1;
+	set_luminosity = 4
+	},
+/turf/open/floor/plating/asteroid/snow/airless,
+/area/slavers)
 "GO" = (
 /obj/structure/table/wood,
 /obj/structure/sign/plaques/golden{
@@ -14879,6 +14942,12 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"GZ" = (
+/obj/machinery/shower{
+	pixel_y = 16
+	},
+/turf/open/floor/plasteel/freezer,
+/area/slavers)
 "Ha" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -14955,6 +15024,12 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/tdome/tdomeobserve)
+"Hi" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/circuit/green,
+/area/slavers/export)
 "Hj" = (
 /obj/structure/bedsheetbin,
 /turf/open/indestructible/hotelwood,
@@ -15311,15 +15386,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/tdome/tdomeobserve)
-"HQ" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/obj/structure/sign/poster/contraband/lusty_xenomorph{
-	pixel_x = 32
-	},
-/turf/open/floor/plating,
-/area/slavers)
 "HR" = (
 /obj/structure/sink{
 	dir = 4;
@@ -15592,6 +15658,17 @@
 "Il" = (
 /turf/closed/indestructible/fakeglass,
 /area/tdome/tdomeobserve)
+"Im" = (
+/obj/machinery/vending/cola/red,
+/turf/open/floor/plasteel,
+/area/slavers)
+"In" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "slavers_cell1"
+	},
+/turf/open/floor/plating,
+/area/slavers)
 "Io" = (
 /obj/item/storage/box/matches{
 	pixel_x = -3;
@@ -15820,13 +15897,8 @@
 /turf/open/floor/plasteel,
 /area/tdome/arena)
 "IO" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
+/obj/effect/spawner/structure/window/plastitanium,
+/turf/open/floor/plating,
 /area/slavers)
 "IP" = (
 /obj/structure/rack,
@@ -16193,25 +16265,12 @@
 /turf/closed/indestructible/fakeglass,
 /area/tdome/tdomeadmin)
 "JJ" = (
-/obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/taperecorder,
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = 24
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "slavers_cell3"
 	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/turf/open/floor/plating,
+/area/slavers)
 "JK" = (
 /obj/machinery/computer/telecrystals/uplinker,
 /obj/effect/turf_decal/stripes/line{
@@ -16350,6 +16409,14 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/tdome/tdomeadmin)
+"JV" = (
+/obj/structure/flora/tree/pine,
+/obj/effect/light_emitter{
+	set_cap = 1;
+	set_luminosity = 4
+	},
+/turf/open/floor/plating/asteroid/snow/airless,
+/area/slavers)
 "JX" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/stripes/line{
@@ -16357,6 +16424,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/tdome/tdomeadmin)
+"JY" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Slave Wing";
+	req_access_txt = "152"
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "JZ" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
@@ -16406,21 +16480,21 @@
 /turf/open/floor/plasteel/dark,
 /area/tdome/tdomeadmin)
 "Kd" = (
-/obj/effect/turf_decal/stripes/white/line,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light,
-/turf/open/floor/plasteel,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plasteel/freezer,
 /area/slavers)
 "Ke" = (
-/obj/machinery/research_table/slaver,
-/turf/open/floor/plating,
+/obj/machinery/computer/arcade/tetris,
+/turf/open/floor/plasteel,
 /area/slavers)
 "Kf" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "slavers_cell3"
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 6
 	},
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
 /area/slavers)
 "Kg" = (
 /turf/closed/indestructible/fakedoor{
@@ -16438,12 +16512,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/tdome/tdomeadmin)
-"Ki" = (
-/obj/structure/toilet{
-	pixel_y = 10
-	},
-/turf/open/floor/plasteel/freezer,
-/area/slavers)
 "Kj" = (
 /obj/machinery/door/airlock/external{
 	name = "Backup Emergency Escape Shuttle"
@@ -16463,12 +16531,17 @@
 	},
 /turf/open/space/basic,
 /area/space)
-"Km" = (
-/obj/structure/bed{
-	dir = 4
+"Kl" = (
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_y = 4
 	},
-/obj/item/bedsheet/syndie,
-/obj/effect/landmark/start/slaver,
+/turf/open/floor/plasteel/cafeteria,
+/area/slavers)
+"Km" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen/red,
 /turf/open/floor/wood,
 /area/slavers)
 "Kn" = (
@@ -16490,6 +16563,24 @@
 /obj/item/paper_bin,
 /obj/item/pen/fourcolor,
 /obj/machinery/light,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/tdome/tdomeadmin)
+"Kp" = (
+/obj/structure/table/wood,
+/obj/item/folder/red,
+/obj/item/book/manual/splurt_space_law,
+/obj/item/restraints/handcuffs,
+/obj/item/assembly/flash/handheld,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -16680,11 +16771,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/tdome/tdomeadmin)
-"Kz" = (
-/obj/structure/table,
-/obj/item/reagent_containers/food/condiment/enzyme,
-/turf/open/floor/plasteel/cafeteria,
-/area/slavers)
 "KA" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -16712,15 +16798,42 @@
 /turf/closed/indestructible/riveted,
 /area/tdome/tdomeadmin)
 "KE" = (
-/obj/structure/sign/poster/contraband/bountyhunters{
-	pixel_y = 32
+/obj/structure/rack,
+/obj/item/electropack/shockcollar/slave{
+	pixel_x = -2;
+	pixel_y = -2
 	},
-/turf/open/floor/plasteel,
+/obj/item/electropack/shockcollar/slave{
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red,
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "KF" = (
-/turf/closed/indestructible/fakedoor{
-	name = "Cold Storage"
+/obj/structure/table/wood,
+/obj/item/toy/cards/deck{
+	pixel_y = 5
 	},
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "KG" = (
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -16875,23 +16988,16 @@
 /obj/item/clothing/mask/luchador/rudos,
 /turf/open/floor/holofloor/wood,
 /area/holodeck/rec_center/wrestlingarena)
-"Le" = (
-/obj/machinery/vending/clothing,
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "Lf" = (
-/obj/machinery/door/window{
-	base_state = "right";
-	dir = 1;
-	icon_state = "right";
-	layer = 3
-	},
+/obj/machinery/vending/boozeomat,
 /turf/open/floor/wood,
 /area/slavers)
+"Lh" = (
+/obj/machinery/sleeper{
+	dir = 8
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/centcom/evac)
 "Li" = (
 /obj/structure/chair{
 	dir = 8
@@ -16904,11 +17010,31 @@
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/centcom/holding)
+"Lk" = (
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/freezer,
+/area/slavers)
+"Ll" = (
+/obj/structure/sink{
+	pixel_y = 20
+	},
+/obj/structure/mirror{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/freezer,
+/area/slavers)
 "Lm" = (
 /obj/structure/table,
 /obj/item/clothing/mask/luchador/tecnicos,
 /turf/open/floor/holofloor/wood,
 /area/holodeck/rec_center/wrestlingarena)
+"Lo" = (
+/obj/machinery/shower{
+	dir = 8;
+	pixel_y = -4
+	},
+/turf/open/floor/plasteel/freezer,
+/area/slavers)
 "Lp" = (
 /obj/structure/chair{
 	dir = 4
@@ -16937,10 +17063,10 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/centcom/evac)
 "Lu" = (
-/obj/machinery/light{
-	dir = 8
+/obj/structure/toilet{
+	pixel_y = 10
 	},
-/turf/open/floor/wood,
+/turf/open/floor/plasteel/freezer,
 /area/slavers)
 "Lv" = (
 /obj/structure/bed,
@@ -16964,6 +17090,14 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"Lz" = (
+/obj/machinery/button/door{
+	id = "slavers_cell2";
+	name = "privacy shutters";
+	pixel_y = -26
+	},
+/turf/open/floor/plating,
+/area/slavers)
 "LA" = (
 /obj/structure/table,
 /obj/structure/bedsheetbin,
@@ -16997,16 +17131,6 @@
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/centcom/evac)
-"LI" = (
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "LJ" = (
 /obj/structure/table,
 /obj/item/radio/off,
@@ -17040,12 +17164,6 @@
 /area/centcom/evac)
 "LO" = (
 /obj/structure/table,
-/turf/open/floor/mineral/titanium/blue,
-/area/centcom/evac)
-"LP" = (
-/obj/machinery/computer/shuttle{
-	dir = 1
-	},
 /turf/open/floor/mineral/titanium/blue,
 /area/centcom/evac)
 "LQ" = (
@@ -17220,6 +17338,11 @@
 	},
 /turf/open/floor/plating,
 /area/syndicate_mothership)
+"Ml" = (
+/obj/structure/closet,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "Mm" = (
 /turf/open/floor/grass,
 /area/centcom/holding)
@@ -17229,24 +17352,14 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Mp" = (
-/obj/structure/table,
-/obj/item/storage/firstaid/regular{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/storage/firstaid/o2,
-/obj/item/storage/firstaid/toxin{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
+"Mo" = (
+/obj/effect/turf_decal/tile/bar{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/slavers)
 "Mq" = (
@@ -17263,6 +17376,11 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"Mr" = (
+/turf/closed/indestructible/fakedoor{
+	name = "Cold Storage"
+	},
+/area/slavers)
 "Mt" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -17319,11 +17437,6 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"MA" = (
-/obj/structure/flora/tree/pine,
-/obj/item/disk/nuclear/fake,
-/turf/open/floor/plating/asteroid/snow/airless,
-/area/slavers)
 "MB" = (
 /turf/open/indestructible/binary,
 /area/fabric_of_reality)
@@ -17372,20 +17485,6 @@
 "MI" = (
 /turf/open/floor/plating,
 /area/syndicate_mothership)
-"MJ" = (
-/obj/structure/sign/map/left{
-	pixel_y = -32
-	},
-/obj/structure/rack{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "minibar_left";
-	name = "skeletal minibar"
-	},
-/obj/machinery/chem_dispenser/drinks{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/slavers)
 "ML" = (
 /obj/structure/table/wood/fancy,
 /turf/open/indestructible/hotelwood,
@@ -17395,8 +17494,8 @@
 /turf/open/indestructible/boss/air,
 /area/centcom/holding)
 "MO" = (
-/obj/machinery/vending/kink,
-/turf/open/floor/plasteel,
+/obj/structure/chair/stool,
+/turf/open/floor/plasteel/cafeteria,
 /area/slavers)
 "MP" = (
 /obj/machinery/light{
@@ -17414,11 +17513,31 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"MR" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Cell 1"
+	},
+/turf/open/floor/plating,
+/area/slavers)
 "MS" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/condiment/enzyme,
 /turf/open/floor/plasteel/cafeteria,
 /area/syndicate_mothership)
+"MT" = (
+/obj/structure/sign/map/right{
+	pixel_y = -32
+	},
+/obj/structure/rack{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "minibar_right";
+	name = "skeletal minibar"
+	},
+/obj/machinery/chem_dispenser/drinks/beer{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/slavers)
 "MU" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
@@ -17426,12 +17545,6 @@
 /obj/effect/turf_decal/tile/brown,
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/two)
-"MV" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "MW" = (
 /obj/structure/mopbucket,
 /obj/item/mop,
@@ -17450,20 +17563,33 @@
 /obj/item/storage/box/bodybags,
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
+"MY" = (
+/turf/open/floor/mech_bay_recharge_floor,
+/area/slavers)
+"MZ" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/metal/twenty,
+/obj/item/stack/sheet/glass/fifty{
+	amount = 20
+	},
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/electrical{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/multitool,
+/obj/item/stack/sheet/mineral/wood/twenty,
+/obj/item/clothing/head/welding,
+/obj/item/stack/sheet/mineral/sandbags{
+	amount = 20
+	},
+/turf/open/floor/plasteel,
+/area/slavers)
 "Na" = (
 /obj/item/paicard,
 /obj/structure/table/wood,
 /turf/open/floor/engine/cult,
 /area/wizard_station)
-"Nb" = (
-/obj/structure/table,
-/obj/item/paper_bin{
-	pixel_x = -3;
-	pixel_y = 7
-	},
-/obj/item/pen,
-/turf/open/floor/plasteel,
-/area/slavers)
 "Nc" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
@@ -17480,14 +17606,6 @@
 	smooth = 1
 	},
 /area/centcom/holding)
-"Ne" = (
-/obj/structure/table/wood/fancy,
-/obj/item/book/manual/splurt_space_law,
-/turf/open/floor/holofloor{
-	dir = 8;
-	icon_state = "dark"
-	},
-/area/holodeck/rec_center/chapelcourt)
 "Nf" = (
 /obj/structure/table,
 /obj/item/storage/backpack/duffelbag/med/surgery,
@@ -17541,23 +17659,6 @@
 "Nl" = (
 /turf/open/floor/carpet/royalblue,
 /area/centcom/holding)
-"Nm" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/machinery/power/apc{
-	cell_type = /obj/item/stock_parts/cell/infinite;
-	dir = 4;
-	name = "Slaver Hideout APC";
-	pixel_x = 26;
-	start_charge = 100
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "Nn" = (
 /obj/machinery/vending/hydronutrients,
 /obj/effect/turf_decal/tile/green{
@@ -17572,6 +17673,18 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"No" = (
+/obj/effect/turf_decal/bot_white,
+/obj/structure/closet/slaver,
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "Np" = (
 /obj/machinery/door/airlock/wood{
 	id_tag = "Ninja7";
@@ -17579,28 +17692,22 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/holding)
+"Nq" = (
+/obj/structure/table,
+/obj/item/pen,
+/obj/item/instrument/harmonica,
+/turf/open/floor/plasteel,
+/area/slavers)
 "Nr" = (
-/turf/closed/indestructible/fakeglass,
+/obj/machinery/door/airlock/external,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
 /area/slavers)
 "Ns" = (
 /obj/structure/mopbucket,
 /obj/item/mop,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Nt" = (
-/obj/structure/sign/map/right{
-	pixel_y = -32
-	},
-/obj/structure/rack{
-	icon = 'icons/obj/stationobjs.dmi';
-	icon_state = "minibar_right";
-	name = "skeletal minibar"
-	},
-/obj/machinery/chem_dispenser/drinks/beer{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/slavers)
 "Nu" = (
 /turf/open/floor/wood,
 /area/syndicate_mothership)
@@ -17616,12 +17723,6 @@
 /obj/machinery/recharge_station,
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
-"Ny" = (
-/obj/item/storage/box/drinkingglasses,
-/obj/item/reagent_containers/food/drinks/bottle/rum,
-/obj/structure/table/wood,
-/turf/open/floor/wood,
-/area/slavers)
 "Nz" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
@@ -17631,23 +17732,20 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/two)
+"NA" = (
+/obj/machinery/door/window{
+	base_state = "right";
+	dir = 1;
+	icon_state = "right";
+	layer = 3
+	},
+/turf/open/floor/wood,
+/area/slavers)
 "NB" = (
 /obj/structure/table,
 /obj/item/storage/belt/champion/wrestling/holodeck,
 /turf/open/floor/holofloor/wood,
 /area/holodeck/rec_center/wrestlingarena)
-"NE" = (
-/obj/structure/table/optable,
-/obj/item/surgical_drapes,
-/obj/effect/turf_decal/bot_white,
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "NF" = (
 /obj/structure/ladder/unbreakable/binary,
 /turf/open/indestructible/airblock,
@@ -17664,40 +17762,26 @@
 /turf/open/floor/plasteel,
 /area/centcom/control)
 "NH" = (
-/obj/structure/table/wood,
-/obj/item/toy/prize/mauler{
-	pixel_y = 12
-	},
-/turf/open/floor/wood,
+/obj/structure/chair/stool,
+/turf/open/floor/plasteel,
 /area/slavers)
-"NL" = (
-/obj/machinery/computer/slavery{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
-"NM" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Cell 4"
-	},
-/turf/open/floor/plating,
-/area/slavers)
-"NN" = (
+"NI" = (
 /obj/structure/flora/tree/pine,
+/obj/item/disk/nuclear/fake,
 /turf/open/floor/plating/asteroid/snow/airless,
 /area/slavers)
-"NO" = (
+"NJ" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Slave Wing";
+	name = "Kitchen";
 	req_access_txt = "152"
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
+/area/slavers)
+"NM" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
 /area/slavers)
 "NP" = (
 /obj/machinery/button/crematorium{
@@ -17706,11 +17790,11 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"NR" = (
-/obj/machinery/shower{
-	pixel_y = 16
-	},
-/turf/open/floor/plasteel/freezer,
+"NQ" = (
+/obj/effect/turf_decal/stripes/white/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light,
+/turf/open/floor/plasteel,
 /area/slavers)
 "NS" = (
 /turf/open/indestructible/hotelwood,
@@ -17745,10 +17829,6 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"NY" = (
-/obj/structure/sign/departments/cargo,
-/turf/closed/indestructible/riveted,
-/area/slavers)
 "Oa" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
@@ -17771,6 +17851,18 @@
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/syndicate_mothership)
+"Od" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "Oe" = (
 /obj/machinery/deepfryer,
 /turf/open/floor/plasteel/cafeteria,
@@ -17803,6 +17895,10 @@
 "Ok" = (
 /turf/open/indestructible/boss/air,
 /area/centcom/holding)
+"Ol" = (
+/obj/structure/flora/tree/pine,
+/turf/open/floor/plating/asteroid/snow/airless,
+/area/slavers)
 "Om" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -17810,14 +17906,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/three)
-"On" = (
-/obj/structure/flora/tree/pine,
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/open/floor/plating/asteroid/snow/airless,
-/area/slavers)
 "Oo" = (
 /obj/machinery/button/door{
 	id = "Ninja1";
@@ -17857,33 +17945,11 @@
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/two)
 "Os" = (
-/obj/structure/table/wood,
-/obj/item/paper_bin,
-/obj/item/pen/red,
-/turf/open/floor/wood,
-/area/slavers)
-"Ot" = (
-/obj/structure/table/wood,
-/obj/item/folder/red,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/restraints/handcuffs,
-/obj/item/assembly/flash/handheld,
-/obj/machinery/airalarm{
-	dir = 1;
-	pixel_y = -22
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
+/obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/turf/open/floor/wood,
+/area/slavers)
 "Ou" = (
 /turf/closed/indestructible/fakedoor{
 	name = "Cold Storage"
@@ -17899,6 +17965,13 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/holding)
+"Ox" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red,
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "Oy" = (
 /obj/machinery/shower{
 	dir = 1
@@ -17915,21 +17988,6 @@
 	},
 /turf/open/floor/plating,
 /area/syndicate_mothership)
-"OA" = (
-/obj/item/book/manual/splurt_space_law,
-/obj/structure/table/wood,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/control)
 "OB" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Barracks";
@@ -17937,8 +17995,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/syndicate_mothership)
-"OD" = (
-/turf/open/floor/plasteel/dark,
+"OC" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
 /area/slavers)
 "OE" = (
 /obj/effect/turf_decal/tile/brown,
@@ -17950,9 +18012,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supplypod)
-"OG" = (
-/turf/open/floor/plasteel,
-/area/slavers)
 "OH" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plasteel/dark,
@@ -17961,20 +18020,6 @@
 /obj/structure/bedsheetbin/towel,
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
-"OK" = (
-/obj/docking_port/stationary{
-	area_type = /area/slavers;
-	dheight = 1;
-	dir = 8;
-	dwidth = 10;
-	height = 15;
-	id = "slaver_away";
-	name = "slave trader hideout";
-	roundstart_template = /datum/map_template/shuttle/slaveship/basic;
-	width = 22
-	},
-/turf/open/floor/plating/asteroid/snow/airless,
-/area/slavers)
 "OL" = (
 /obj/structure/mineral_door/paperframe{
 	name = "Dojo"
@@ -18002,17 +18047,24 @@
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/centcom/holding)
+"OP" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/structure/sign/poster/contraband/lusty_xenomorph{
+	pixel_x = 32
+	},
+/turf/open/floor/plating,
+/area/slavers)
+"OQ" = (
+/obj/structure/table,
+/obj/item/reagent_containers/rag/towel/syndicate,
+/turf/open/floor/plasteel/freezer,
+/area/slavers)
 "OS" = (
 /obj/structure/mecha_wreckage/mauler,
 /turf/open/floor/plasteel/dark,
 /area/syndicate_mothership)
-"OT" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/machinery/computer/arcade/orion_trail,
-/turf/open/floor/plasteel,
-/area/slavers)
 "OU" = (
 /obj/item/clothing/under/costume/jabroni,
 /obj/item/clothing/under/costume/geisha,
@@ -18029,44 +18081,45 @@
 /area/syndicate_mothership)
 "OW" = (
 /obj/structure/table,
-/obj/item/storage/dice,
-/obj/item/instrument/piano_synth,
-/turf/open/floor/plasteel,
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	layer = 3.1;
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/food/condiment/peppermill{
+	desc = "Often used to flavor food or make people sneeze. Fashionably moved to the left side of the table.";
+	pixel_x = -8;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/food/condiment/enzyme{
+	pixel_x = 9;
+	pixel_y = 3
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/slavers)
+"OY" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood,
 /area/slavers)
 "OZ" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plating,
 /area/syndicate_mothership)
-"Pd" = (
-/obj/machinery/door/airlock/external,
-/turf/open/floor/plating,
-/area/slavers)
-"Pe" = (
-/obj/item/cautery,
-/obj/item/scalpel,
-/obj/item/circular_saw,
-/obj/item/surgicaldrill,
+"Pa" = (
 /obj/structure/table,
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel/cafeteria,
 /area/slavers)
-"Pf" = (
-/obj/effect/turf_decal/bot_white,
-/obj/structure/closet/slaver,
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
+"Pc" = (
+/obj/structure/table,
+/obj/item/soap/syndie,
+/turf/open/floor/plasteel/freezer,
+/area/slavers)
+"Pd" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "slavers_cell2"
 	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/slavers)
 "Pg" = (
 /obj/machinery/light{
@@ -18074,12 +18127,18 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/supplypod)
-"Pj" = (
-/obj/machinery/light{
-	dir = 1
+"Ph" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 4
 	},
-/obj/machinery/portable_atmospherics/pump,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
+"Pi" = (
+/turf/closed/indestructible/fakeglass,
 /area/slavers)
 "Pl" = (
 /obj/structure/window/reinforced,
@@ -18088,22 +18147,6 @@
 	},
 /turf/open/indestructible/boss/air,
 /area/centcom/holding)
-"Pm" = (
-/obj/structure/table/wood,
-/obj/item/toy/cards/deck{
-	pixel_y = 5
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "Pn" = (
 /turf/closed/indestructible/fakedoor{
 	name = "Equipment Storage"
@@ -18124,14 +18167,16 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/centcom/holding)
 "Pq" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 4
+/obj/structure/rack,
+/obj/item/card/id/syndicate/slaver,
+/obj/item/clothing/suit/straight_jacket,
+/obj/item/clothing/glasses/sunglasses/blindfold{
+	pixel_y = 4
 	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
+/obj/item/card/id/syndicate/slaver,
+/obj/item/card/id/syndicate/slaver,
+/obj/item/clothing/mask/muzzle,
+/turf/open/floor/plasteel,
 /area/slavers)
 "Pr" = (
 /obj/structure/table,
@@ -18143,11 +18188,10 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/supplypod)
 "Pt" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "slavers_cell2"
+/obj/effect/turf_decal/tile/red{
+	dir = 4
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "Pv" = (
 /obj/effect/turf_decal/tile/brown,
@@ -18169,6 +18213,13 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/centcom/holding)
+"Py" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Restroom";
+	req_access_txt = "152"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/slavers)
 "Pz" = (
 /turf/open/floor/plasteel/freezer,
 /area/centcom/holding)
@@ -18178,12 +18229,16 @@
 	},
 /turf/open/indestructible/boss/air,
 /area/centcom/holding)
+"PB" = (
+/obj/machinery/research_table/slaver,
+/turf/open/floor/plating,
+/area/slavers)
 "PC" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
 /area/slavers)
 "PD" = (
 /turf/open/floor/plasteel/cafeteria,
@@ -18207,10 +18262,6 @@
 /obj/item/camera,
 /turf/open/floor/plasteel,
 /area/centcom/supplypod)
-"PH" = (
-/obj/effect/spawner/structure/window/plastitanium,
-/turf/open/floor/plating,
-/area/slavers)
 "PI" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
@@ -18234,18 +18285,28 @@
 	},
 /turf/open/floor/plating,
 /area/syndicate_mothership)
+"PK" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/slavers)
 "PL" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"PN" = (
-/obj/machinery/door/airlock{
-	id_tag = null;
-	name = "Toilet"
+"PM" = (
+/obj/structure/bed{
+	dir = 8
 	},
-/turf/open/floor/plasteel/freezer,
+/obj/item/bedsheet/syndie{
+	dir = 8
+	},
+/obj/effect/landmark/start/slaver_leader,
+/turf/open/floor/wood,
 /area/slavers)
 "PO" = (
 /obj/machinery/hydroponics/constructable,
@@ -18271,11 +18332,13 @@
 /turf/open/floor/plating,
 /area/syndicate_mothership)
 "PQ" = (
-/obj/machinery/stasis{
-	dir = 4
+/obj/structure/window/reinforced{
+	dir = 8
 	},
-/turf/open/floor/mineral/titanium/blue,
-/area/centcom/evac)
+/obj/machinery/hydroponics/soil,
+/obj/item/plant_analyzer,
+/turf/open/floor/grass,
+/area/slavers)
 "PS" = (
 /obj/machinery/computer/shuttle/syndicate/recall,
 /obj/effect/turf_decal/tile/bar,
@@ -18338,6 +18401,16 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/centcom/evac)
+"Qc" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "Qd" = (
 /obj/structure/table/optable,
 /turf/open/floor/plasteel/white,
@@ -18346,10 +18419,20 @@
 /turf/open/ai_visible,
 /area/ai_multicam_room)
 "Qf" = (
-/obj/machinery/light/small{
-	dir = 8
+/obj/item/toy/beach_ball/holoball,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/slavers)
+"Qg" = (
+/obj/machinery/vending/cigarette/syndicate,
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 4
 	},
-/turf/open/floor/plating,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "Qh" = (
 /obj/machinery/door/airlock/wood{
@@ -18358,24 +18441,6 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/holding)
-"Qi" = (
-/obj/structure/window{
-	dir = 8
-	},
-/obj/machinery/sleeper{
-	dir = 4
-	},
-/turf/open/floor/holofloor{
-	icon_state = "white"
-	},
-/area/holodeck/rec_center/medical)
-"Qj" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Kitchen";
-	req_access_txt = "152"
-	},
-/turf/open/floor/plasteel,
-/area/slavers)
 "Qk" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/ppflowers,
@@ -18394,16 +18459,13 @@
 "Qo" = (
 /turf/open/floor/mineral/plastitanium/red,
 /area/centcom/evac)
-"Qp" = (
-/obj/structure/table/wood,
-/obj/item/pizzabox/margherita{
-	pixel_y = 12
-	},
-/turf/open/floor/wood,
-/area/slavers)
 "Qq" = (
 /turf/open/floor/plasteel/freezer,
 /area/syndicate_mothership)
+"Qr" = (
+/obj/structure/sign/departments/cargo,
+/turf/closed/indestructible/riveted,
+/area/slavers)
 "Qs" = (
 /obj/structure/table/wood/bar,
 /obj/structure/safe/floor,
@@ -18421,13 +18483,14 @@
 /turf/open/floor/plasteel,
 /area/syndicate_mothership)
 "Qv" = (
-/obj/structure/toilet{
+/obj/machinery/vending/coffee,
+/obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/obj/machinery/light/small{
+/obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "Qw" = (
 /obj/structure/table,
@@ -18474,9 +18537,18 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"QI" = (
-/obj/structure/weightmachine/weightlifter,
-/turf/open/floor/plasteel,
+"QH" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/machinery/sleeper,
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "QK" = (
 /obj/effect/turf_decal/delivery,
@@ -18554,6 +18626,20 @@
 /obj/effect/turf_decal/tile/green,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
+"QY" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/computer/arcade/orion_trail,
+/turf/open/floor/plasteel,
+/area/slavers)
+"QZ" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/pump,
+/turf/open/floor/plasteel,
+/area/slavers)
 "Ra" = (
 /obj/machinery/door/window/eastright,
 /turf/open/indestructible/boss/air,
@@ -18565,19 +18651,18 @@
 /turf/open/floor/plating,
 /area/syndicate_mothership)
 "Rc" = (
-/obj/structure/sign/departments/restroom{
-	pixel_y = 32
-	},
-/obj/effect/turf_decal/tile/red{
+/obj/machinery/hydroponics/soil,
+/obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
+/turf/open/floor/grass,
+/area/slavers)
+"Rd" = (
+/obj/machinery/door/airlock{
+	id_tag = null;
+	name = "Toilet"
 	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel/freezer,
 /area/slavers)
 "Re" = (
 /obj/structure/mineral_door/paperframe,
@@ -18587,14 +18672,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel,
 /area/centcom/supplypod)
-"Rg" = (
-/obj/machinery/button/door{
-	id = "slavers_cell2";
-	name = "privacy shutters";
-	pixel_y = -26
-	},
-/turf/open/floor/plating,
-/area/slavers)
 "Rh" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -18602,8 +18679,13 @@
 /turf/open/floor/grass,
 /area/centcom/holding)
 "Rj" = (
-/obj/structure/flora/grass/both,
-/turf/open/floor/plating/asteroid/snow/airless,
+/obj/machinery/light,
+/obj/machinery/recharge_station,
+/turf/open/floor/plasteel,
+/area/slavers)
+"Rk" = (
+/obj/structure/dresser,
+/turf/open/floor/wood,
 /area/slavers)
 "Rl" = (
 /obj/structure/mirror{
@@ -18620,134 +18702,37 @@
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
 "Rn" = (
-/obj/item/reagent_containers/glass/bowl,
-/obj/effect/spawner/lootdrop/prison_contraband,
-/obj/item/reagent_containers/glass/bowl,
-/obj/item/reagent_containers/glass/bowl,
-/obj/item/reagent_containers/glass/bowl,
-/obj/item/reagent_containers/glass/bowl,
-/obj/item/reagent_containers/glass/bowl,
-/obj/item/reagent_containers/glass/bowl,
-/obj/item/reagent_containers/glass/bowl,
-/obj/item/storage/box/drinkingglasses,
-/obj/item/storage/bag/tray/cafeteria,
-/obj/item/storage/bag/tray/cafeteria,
-/obj/item/storage/bag/tray/cafeteria,
-/obj/item/storage/bag/tray/cafeteria,
-/obj/item/storage/box/drinkingglasses,
-/obj/structure/window/reinforced,
-/obj/structure/table,
-/obj/item/kitchen/rollingpin,
-/turf/open/floor/plasteel/cafeteria,
-/area/slavers)
-"Ro" = (
-/obj/effect/turf_decal/vg_decals/numbers/one,
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "Rp" = (
-/obj/structure/rack,
-/obj/item/stack/sheet/metal/twenty,
-/obj/item/stack/sheet/glass/fifty{
-	amount = 20
-	},
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/electrical{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/multitool,
-/obj/item/stack/sheet/mineral/wood/twenty,
-/obj/item/clothing/head/welding,
-/obj/item/stack/sheet/mineral/sandbags{
-	amount = 20
-	},
-/turf/open/floor/plasteel,
+/obj/structure/table,
+/obj/item/storage/box/donkpockets,
+/turf/open/floor/plasteel/cafeteria,
 /area/slavers)
 "Rq" = (
 /obj/machinery/washing_machine,
 /turf/open/floor/mineral/titanium/blue,
 /area/centcom/holding)
-"Rr" = (
-/obj/machinery/computer/mech_bay_power_console{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/slavers)
 "Rs" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 4
+/obj/machinery/door/airlock/centcom{
+	name = "Cell 4"
 	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
-"Rt" = (
-/obj/structure/rack,
-/obj/item/electropack/shockcollar/slave{
-	pixel_x = -2;
-	pixel_y = -2
-	},
-/obj/item/electropack/shockcollar/slave{
-	pixel_x = 2;
-	pixel_y = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/slavers)
 "Ru" = (
 /obj/structure/table,
 /obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
-"Rv" = (
-/obj/structure/table/wood,
-/obj/item/folder/red,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/restraints/handcuffs,
-/obj/item/assembly/flash/handheld,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/tdome/tdomeadmin)
-"Rw" = (
-/obj/machinery/light,
-/obj/machinery/recharge_station,
-/turf/open/floor/plasteel,
-/area/slavers)
 "Rz" = (
 /obj/effect/turf_decal/loading_area,
 /turf/open/floor/plating,
 /area/syndicate_mothership)
-"RC" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
+"RB" = (
+/turf/open/floor/wood,
 /area/slavers)
 "RD" = (
 /obj/effect/turf_decal/tile/red,
@@ -18759,14 +18744,15 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
-"RJ" = (
-/obj/effect/turf_decal/tile/red,
-/turf/open/floor/plasteel/dark,
-/area/slavers)
-"RL" = (
-/obj/structure/reagent_dispensers/fueltank,
-/obj/effect/turf_decal/delivery,
+"RH" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
+/area/slavers)
+"RJ" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/open/floor/plasteel/cafeteria,
 /area/slavers)
 "RM" = (
 /obj/structure/chair/comfy/brown{
@@ -18774,9 +18760,12 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"RP" = (
-/obj/machinery/computer/arcade/tetris,
-/turf/open/floor/plasteel,
+"RN" = (
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "RQ" = (
 /obj/item/kirbyplants{
@@ -18800,14 +18789,26 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"RU" = (
-/obj/machinery/cryopod{
+"RV" = (
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/plasteel,
+/area/slavers)
+"RW" = (
+/obj/effect/turf_decal/stripes/white/line,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/slavers)
+"RY" = (
+/obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/effect/turf_decal/bot,
-/obj/machinery/light{
+/obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/machinery/sleeper,
 /turf/open/floor/plasteel/dark,
 /area/slavers)
 "RZ" = (
@@ -18821,11 +18822,12 @@
 /turf/open/floor/plasteel,
 /area/syndicate_mothership)
 "Sa" = (
-/obj/effect/turf_decal/stripes/corner,
-/obj/machinery/computer/cryopod{
-	pixel_x = 32
+/obj/structure/chair/stool,
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 8
 	},
-/turf/open/floor/plasteel,
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "Sb" = (
 /obj/structure/table/wood,
@@ -18840,6 +18842,9 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"Se" = (
+/turf/open/floor/plasteel/cafeteria,
+/area/slavers)
 "Sf" = (
 /obj/structure/chair{
 	dir = 4;
@@ -18865,18 +18870,15 @@
 /obj/item/toy/nuke,
 /turf/open/floor/wood,
 /area/syndicate_mothership)
-"Sk" = (
-/obj/machinery/light/small{
-	dir = 4
+"Sj" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 10
 	},
-/obj/effect/decal/cleanable/cobweb{
-	icon_state = "cobweb2"
-	},
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
 /area/slavers)
 "Sm" = (
-/obj/item/toy/beach_ball/holoball,
-/obj/effect/decal/cleanable/dirt,
+/obj/structure/weightmachine/weightlifter,
 /turf/open/floor/plasteel,
 /area/slavers)
 "So" = (
@@ -18889,14 +18891,21 @@
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
 "Sq" = (
-/obj/structure/sink/kitchen{
-	dir = 8;
-	pixel_x = 11
+/obj/structure/window/reinforced{
+	dir = 8
 	},
-/obj/structure/mirror{
-	pixel_x = 28
+/obj/machinery/hydroponics/soil,
+/turf/open/floor/grass,
+/area/slavers)
+"Ss" = (
+/obj/structure/holohoop{
+	dir = 4
 	},
-/turf/open/floor/plasteel/freezer,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
 /area/slavers)
 "St" = (
 /obj/machinery/shower{
@@ -18904,6 +18913,10 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/centcom/holding)
+"Su" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/slavers)
 "Sv" = (
 /obj/structure/closet/secure_closet,
 /obj/item/coin/silver,
@@ -18919,10 +18932,10 @@
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/four)
 "Sz" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 6
-	},
-/turf/open/floor/plasteel/dark,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/reagent_containers/food/drinks/bottle/rum,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
 /area/slavers)
 "SB" = (
 /obj/structure/curtain,
@@ -18935,10 +18948,8 @@
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
 "SC" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
+/obj/machinery/vending/tool,
+/turf/open/floor/plasteel,
 /area/slavers)
 "SD" = (
 /obj/structure/mopbucket,
@@ -18961,10 +18972,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supplypod)
-"SG" = (
-/obj/machinery/vending/cola/red,
-/turf/open/floor/plasteel,
-/area/slavers)
 "SH" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 8
@@ -18982,19 +18989,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/two)
-"SJ" = (
-/obj/structure/punching_bag,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/slavers)
-"SK" = (
-/obj/structure/chair/stool,
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "SM" = (
 /obj/machinery/vending/autodrobe{
 	extended_inventory = 1
@@ -19007,29 +19001,26 @@
 /obj/item/mop,
 /turf/open/floor/plasteel/cafeteria,
 /area/centcom/holding)
-"SO" = (
-/obj/machinery/hydroponics/soil,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/item/cultivator,
-/turf/open/floor/grass,
-/area/slavers)
 "SP" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/space/basic,
 /area/centcom/supplypod)
-"SS" = (
-/obj/structure/table,
-/obj/item/reagent_containers/food/condiment/peppermill{
-	pixel_x = 3;
-	pixel_y = 6
+"SQ" = (
+/obj/structure/noticeboard{
+	pixel_x = -32
 	},
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -3;
-	pixel_y = 6
+/obj/item/paper{
+	info = "Kidnap crew, attach a slave collar around their neck, set a price with the computer, wait for the station to pay the ransom, put slave in the green area and 'export' them with the computer";
+	name = "dummies guide to the slave trade"
 	},
-/turf/open/floor/plasteel/cafeteria,
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red,
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "SU" = (
 /obj/machinery/light{
@@ -19067,26 +19058,37 @@
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
 "SX" = (
-/obj/structure/sign/poster/contraband/syndicate_recruitment{
+/obj/structure/sign/poster/contraband/bountyhunters{
 	pixel_y = 32
 	},
-/turf/open/floor/wood,
+/turf/open/floor/plasteel,
 /area/slavers)
 "SY" = (
 /obj/structure/table/wood,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Tc" = (
+"Ta" = (
 /obj/machinery/cryopod{
-	dir = 8
+	dir = 4
 	},
 /obj/effect/turf_decal/bot,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/slavers)
 "Td" = (
 /obj/structure/fireplace,
 /turf/open/floor/carpet/red,
 /area/centcom/holding)
+"Te" = (
+/obj/machinery/hydroponics/soil,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/item/cultivator,
+/turf/open/floor/grass,
+/area/slavers)
 "Tf" = (
 /obj/machinery/light,
 /obj/effect/landmark/holding_facility,
@@ -19096,6 +19098,12 @@
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
+"Th" = (
+/obj/structure/table,
+/obj/item/kitchen/rollingpin,
+/obj/item/kitchen/knife,
+/turf/open/floor/plasteel/cafeteria,
+/area/slavers)
 "Tj" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -19105,19 +19113,21 @@
 /turf/open/floor/plasteel,
 /area/syndicate_mothership)
 "Tl" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Slave Preparation Room";
-	req_access_txt = "152"
+/obj/machinery/button/door{
+	id = "slavers_cell1";
+	name = "privacy shutters";
+	pixel_y = -26
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/slavers)
 "Tm" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
 	},
-/obj/effect/turf_decal/caution/stand_clear/white{
-	dir = 4
+/obj/effect/turf_decal/tile/bar{
+	dir = 8
 	},
+/obj/effect/turf_decal/tile/bar,
 /turf/open/floor/plasteel/dark,
 /area/slavers)
 "Tn" = (
@@ -19130,6 +19140,18 @@
 "To" = (
 /turf/open/indestructible/airblock,
 /area/fabric_of_reality)
+"Tp" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel,
+/area/slavers)
+"Tq" = (
+/obj/machinery/deepfryer,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/slavers)
 "Tr" = (
 /obj/structure/closet/chefcloset,
 /turf/open/floor/plasteel/cafeteria,
@@ -19140,12 +19162,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
-"Tt" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Cell 3"
-	},
-/turf/open/floor/plating,
-/area/slavers)
 "Tu" = (
 /obj/structure/flora/ausbushes/fernybush,
 /obj/structure/flora/ausbushes/fullgrass,
@@ -19154,10 +19170,21 @@
 /obj/structure/window/reinforced/fulltile,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Tv" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
+"Tx" = (
+/obj/structure/table,
+/obj/item/paper_bin{
+	pixel_x = -3;
+	pixel_y = 7
 	},
+/obj/item/pen,
+/turf/open/floor/plasteel,
+/area/slavers)
+"Ty" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red,
+/obj/machinery/light,
 /turf/open/floor/plasteel/dark,
 /area/slavers)
 "Tz" = (
@@ -19175,15 +19202,7 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/centcom/holding)
 "TC" = (
-/obj/structure/rack,
-/obj/item/card/id/syndicate/slaver,
-/obj/item/clothing/suit/straight_jacket,
-/obj/item/clothing/glasses/sunglasses/blindfold{
-	pixel_y = 4
-	},
-/obj/item/card/id/syndicate/slaver,
-/obj/item/card/id/syndicate/slaver,
-/obj/item/clothing/mask/muzzle,
+/obj/machinery/vending/sustenance,
 /turf/open/floor/plasteel,
 /area/slavers)
 "TD" = (
@@ -19204,14 +19223,14 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
-"TG" = (
-/obj/structure/table/wood,
-/turf/open/floor/wood,
-/area/slavers)
-"TH" = (
-/obj/structure/table,
-/obj/item/book/manual/chef_recipes,
-/turf/open/floor/plasteel/cafeteria,
+"TI" = (
+/obj/effect/turf_decal/bot_white,
+/obj/structure/closet/slaver,
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "TJ" = (
 /obj/machinery/door/airlock/wood{
@@ -19221,17 +19240,17 @@
 /turf/open/floor/wood,
 /area/centcom/holding)
 "TK" = (
-/obj/machinery/space_heater,
-/turf/open/floor/plasteel,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plating,
 /area/slavers)
 "TL" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
 	},
-/obj/structure/sign/poster/contraband/lizard{
-	pixel_x = -32
-	},
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "TM" = (
 /mob/living/simple_animal/bot/medbot{
@@ -19242,13 +19261,6 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"TN" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 10
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/slavers)
 "TO" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -19266,9 +19278,7 @@
 /turf/open/floor/plasteel/freezer,
 /area/syndicate_mothership)
 "TR" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Storage"
-	},
+/obj/effect/turf_decal/vg_decals/numbers/three,
 /turf/open/floor/plasteel,
 /area/slavers)
 "TS" = (
@@ -19288,6 +19298,23 @@
 /obj/item/clothing/head/helmet/space/plasmaman,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"TT" = (
+/obj/structure/window{
+	dir = 8
+	},
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/turf/open/floor/holofloor{
+	icon_state = "white"
+	},
+/area/holodeck/rec_center/medical)
+"TU" = (
+/obj/machinery/stasis,
+/turf/open/floor/holofloor{
+	icon_state = "white"
+	},
+/area/holodeck/rec_center/medical)
 "TV" = (
 /obj/structure/table,
 /obj/item/stack/packageWrap,
@@ -19295,23 +19322,10 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/centcom/holding)
 "TW" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Dorms";
-	req_access_txt = "152"
+/obj/structure/sign/poster/contraband/syndicate_recruitment{
+	pixel_y = 32
 	},
 /turf/open/floor/wood,
-/area/slavers)
-"TX" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 5
-	},
-/obj/structure/sign/directions/engineering{
-	desc = "A sign that shows there are doors here. There are doors everywhere!";
-	icon_state = "doors";
-	name = "WARNING: EXTERNAL AIRLOCK";
-	pixel_x = -32
-	},
-/turf/open/floor/plasteel/dark,
 /area/slavers)
 "TY" = (
 /obj/structure/bedsheetbin/color,
@@ -19323,6 +19337,12 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
+"Ub" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Showers"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/slavers)
 "Uc" = (
 /obj/structure/bodycontainer/crematorium{
 	dir = 4;
@@ -19330,34 +19350,6 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Ue" = (
-/obj/structure/rack,
-/obj/item/electropack/shockcollar/slave{
-	pixel_x = -2;
-	pixel_y = -2
-	},
-/obj/item/electropack/shockcollar/slave{
-	pixel_x = 2;
-	pixel_y = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red,
-/turf/open/floor/plasteel/dark,
-/area/slavers)
-"Uf" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "door"
-	},
-/turf/open/floor/plasteel,
-/area/slavers)
 "Ug" = (
 /obj/machinery/door/poddoor/shuttledock{
 	checkdir = 1;
@@ -19394,13 +19386,6 @@
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/syndicate_mothership)
-"Um" = (
-/obj/structure/sink/kitchen{
-	dir = 8;
-	pixel_x = 11
-	},
-/turf/open/floor/plasteel/cafeteria,
-/area/slavers)
 "Un" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Thunderdome";
@@ -19411,11 +19396,26 @@
 /turf/open/floor/plasteel,
 /area/tdome/tdomeobserve)
 "Uo" = (
-/turf/open/floor/plating/asteroid/snow/airless,
-/area/slavers)
+/obj/machinery/stasis{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/centcom/evac)
 "Up" = (
-/turf/open/floor/circuit/green,
-/area/slavers/export)
+/obj/structure/sign/departments/restroom{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "Uq" = (
 /obj/machinery/button/door{
 	id = "Ninja2";
@@ -19440,10 +19440,13 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Us" = (
-/obj/structure/closet,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel/dark,
+"Ut" = (
+/obj/structure/flora/grass/brown,
+/obj/effect/light_emitter{
+	set_cap = 1;
+	set_luminosity = 4
+	},
+/turf/open/floor/plating/asteroid/snow/airless,
 /area/slavers)
 "Uu" = (
 /obj/machinery/light{
@@ -19471,11 +19474,11 @@
 /turf/open/floor/plating/asteroid/snow/airless,
 /area/syndicate_mothership)
 "Uz" = (
-/obj/machinery/hydroponics/soil,
-/obj/structure/window/reinforced{
-	dir = 4
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 9
 	},
-/turf/open/floor/grass,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
 /area/slavers)
 "UC" = (
 /obj/machinery/vending/cola,
@@ -19498,12 +19501,22 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/holding)
-"UJ" = (
-/obj/structure/closet/secure_closet/freezer/meat,
-/obj/machinery/light{
-	dir = 1
+"UK" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 4
 	},
-/turf/open/floor/plasteel/cafeteria,
+/obj/effect/turf_decal/tile/red,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/power/apc{
+	cell_type = /obj/item/stock_parts/cell/infinite;
+	dir = 4;
+	name = "Slaver Hideout APC";
+	pixel_x = 26;
+	start_charge = 100
+	},
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "UL" = (
 /obj/effect/turf_decal/tile/brown,
@@ -19516,12 +19529,14 @@
 /turf/open/floor/plasteel,
 /area/centcom/supplypod)
 "UM" = (
-/obj/structure/table/wood,
-/obj/item/toy/figure/syndie,
-/turf/open/floor/wood,
-/area/slavers)
-"UN" = (
-/turf/open/floor/wood,
+/obj/machinery/cryopod{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "UO" = (
 /obj/machinery/door/airlock/centcom{
@@ -19550,12 +19565,18 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/one)
+"UR" = (
+/obj/machinery/biogenerator,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel,
+/area/slavers)
 "US" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
+/obj/machinery/button/door{
+	id = "slavers_cell3";
+	name = "privacy shutters";
+	pixel_y = -26
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating,
 /area/slavers)
 "UT" = (
 /obj/structure/chair/wood/wings{
@@ -19595,9 +19616,7 @@
 /area/centcom/supplypod/loading/three)
 "UY" = (
 /obj/structure/table,
-/obj/machinery/microwave{
-	pixel_y = 4
-	},
+/obj/item/book/manual/chef_recipes,
 /turf/open/floor/plasteel/cafeteria,
 /area/slavers)
 "Va" = (
@@ -19627,21 +19646,18 @@
 /obj/item/assembly/flash/handheld,
 /turf/open/floor/mineral/plastitanium/red,
 /area/centcom/evac)
-"Vh" = (
-/obj/machinery/vending/snack/random,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
+"Vg" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Storage"
 	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/slavers)
 "Vi" = (
-/obj/structure/closet,
-/obj/effect/turf_decal/bot,
-/obj/machinery/light,
-/turf/open/floor/plasteel/dark,
+/obj/machinery/door/airlock/centcom{
+	name = "Dorms";
+	req_access_txt = "152"
+	},
+/turf/open/floor/wood,
 /area/slavers)
 "Vj" = (
 /obj/structure/toilet{
@@ -19657,37 +19673,29 @@
 /turf/open/floor/plasteel/freezer,
 /area/syndicate_mothership)
 "Vl" = (
-/turf/closed/indestructible/rock/snow,
-/area/slavers)
-"Vm" = (
-/obj/structure/table,
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	layer = 3.1;
-	pixel_x = -2;
-	pixel_y = 2
-	},
-/obj/item/reagent_containers/food/condiment/peppermill{
-	desc = "Often used to flavor food or make people sneeze. Fashionably moved to the left side of the table.";
-	pixel_x = -8;
-	pixel_y = 2
-	},
-/obj/item/reagent_containers/food/condiment/enzyme{
-	pixel_x = 9;
-	pixel_y = 3
-	},
-/turf/open/floor/plasteel/cafeteria,
+/obj/effect/turf_decal/vg_decals/numbers/one,
+/turf/open/floor/plasteel,
 /area/slavers)
 "Vn" = (
 /obj/item/storage/box/bodybags,
 /obj/item/storage/box/bodybags,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Vr" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 8
+"Vo" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Cell 3"
 	},
-/obj/effect/turf_decal/tile/red{
+/turf/open/floor/plating,
+/area/slavers)
+"Vr" = (
+/obj/structure/table/optable,
+/obj/item/surgical_drapes,
+/obj/effect/turf_decal/bot_white,
+/obj/effect/turf_decal/tile/blue{
 	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
 /area/slavers)
@@ -19733,12 +19741,8 @@
 /turf/open/space,
 /area/space)
 "Vy" = (
-/obj/machinery/shower{
-	dir = 8;
-	pixel_y = -4
-	},
-/obj/item/soap/nanotrasen,
-/turf/open/floor/plasteel/freezer,
+/obj/machinery/deepfryer,
+/turf/open/floor/plasteel/cafeteria,
 /area/slavers)
 "Vz" = (
 /obj/machinery/vending/wallmed{
@@ -19772,21 +19776,8 @@
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
 "VD" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/machinery/light,
-/turf/open/floor/plasteel/dark,
-/area/slavers)
-"VE" = (
-/obj/effect/turf_decal/bot_white,
-/obj/structure/closet/slaver,
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
+/obj/machinery/hydroponics/soil,
+/turf/open/floor/grass,
 /area/slavers)
 "VF" = (
 /obj/structure/rack,
@@ -19797,10 +19788,14 @@
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
 "VG" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Showers"
+/obj/effect/turf_decal/tile/red{
+	dir = 4
 	},
-/turf/open/floor/plasteel/freezer,
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "VH" = (
 /obj/machinery/vending/sustenance,
@@ -19810,16 +19805,29 @@
 /obj/machinery/autolathe,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"VJ" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plasteel,
+/area/slavers)
 "VK" = (
 /obj/machinery/vending/clothing,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
 "VL" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "slavers_cell1"
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 5
 	},
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel,
+/area/slavers)
+"VN" = (
+/obj/structure/bed{
+	dir = 4
+	},
+/obj/item/bedsheet/syndie,
+/obj/effect/landmark/start/slaver,
+/turf/open/floor/wood,
 /area/slavers)
 "VO" = (
 /turf/closed/indestructible/riveted,
@@ -19849,10 +19857,6 @@
 	},
 /turf/open/floor/wood,
 /area/syndicate_mothership)
-"VU" = (
-/obj/structure/dresser,
-/turf/open/floor/wood,
-/area/slavers)
 "VX" = (
 /obj/effect/landmark/shuttle_import,
 /turf/open/space/basic,
@@ -19861,11 +19865,19 @@
 /obj/machinery/vending/cola,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"VZ" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "Wa" = (
-/obj/structure/mopbucket,
-/obj/item/mop,
-/obj/item/reagent_containers/glass/bucket,
-/turf/open/floor/plasteel/freezer,
+/obj/structure/table,
+/obj/item/reagent_containers/food/condiment/enzyme,
+/turf/open/floor/plasteel/cafeteria,
 /area/slavers)
 "Wb" = (
 /obj/machinery/door/window/westleft,
@@ -19884,27 +19896,39 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/evac)
+"Wd" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/cobweb{
+	icon_state = "cobweb2"
+	},
+/turf/open/floor/plating,
+/area/slavers)
 "We" = (
 /obj/machinery/vending/coffee,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Wf" = (
-/obj/structure/table,
-/obj/machinery/microwave,
-/obj/structure/window/reinforced,
-/turf/open/floor/plasteel/cafeteria,
+"Wg" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
 /area/slavers)
 "Wh" = (
+/obj/item/retractor,
+/obj/item/hemostat,
+/obj/structure/table,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
+/obj/machinery/defibrillator_mount/loaded{
+	pixel_y = 28
 	},
-/obj/machinery/sleeper,
 /turf/open/floor/plasteel/dark,
 /area/slavers)
 "Wi" = (
@@ -19929,8 +19953,11 @@
 /obj/machinery/recharger,
 /turf/open/floor/plasteel/dark,
 /area/slavers)
-"Wo" = (
-/turf/open/floor/mech_bay_recharge_floor,
+"Wn" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "Wp" = (
 /obj/machinery/processor,
@@ -19959,31 +19986,50 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Ww" = (
-/obj/structure/chair/stool,
-/turf/open/floor/plasteel/cafeteria,
+"Wv" = (
+/obj/machinery/mech_bay_recharge_port,
+/turf/open/floor/plasteel,
 /area/slavers)
 "Wy" = (
-/obj/structure/flora/bush,
-/obj/structure/sign/warning/securearea{
-	desc = "A warning sign which reads 'FOURTH WALL'.";
-	name = "\improper FOURTH WALL";
-	pixel_x = -32
-	},
-/turf/open/floor/plating/asteroid/snow/airless,
+/obj/machinery/door/airlock/external,
+/turf/open/floor/plating,
 /area/slavers)
 "WA" = (
-/obj/machinery/hydroponics/soil,
-/turf/open/floor/grass,
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/slavers)
+"WB" = (
+/obj/structure/mopbucket,
+/obj/item/mop,
+/obj/item/reagent_containers/glass/bucket,
+/turf/open/floor/plasteel/freezer,
 /area/slavers)
 "WC" = (
 /obj/structure/table/reinforced,
 /obj/item/pen,
 /turf/open/floor/mineral/plastitanium/red,
 /area/centcom/evac)
-"WE" = (
-/obj/effect/decal/cleanable/oil,
-/turf/open/floor/plasteel,
+"WF" = (
+/obj/item/cautery,
+/obj/item/scalpel,
+/obj/item/circular_saw,
+/obj/item/surgicaldrill,
+/obj/structure/table,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/plasteel/dark,
+/area/slavers)
+"WG" = (
+/obj/structure/table/wood,
+/obj/item/toy/figure/syndie,
+/turf/open/floor/wood,
 /area/slavers)
 "WH" = (
 /obj/structure/table/reinforced,
@@ -19992,13 +20038,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supplypod)
-"WI" = (
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "WJ" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Thunderdome Administration";
@@ -20017,19 +20056,26 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/one)
-"WL" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 5
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/slavers)
 "WM" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 32
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"WN" = (
+/obj/docking_port/stationary{
+	area_type = /area/slavers;
+	dheight = 1;
+	dir = 8;
+	dwidth = 10;
+	height = 15;
+	id = "slaver_away";
+	name = "slave trader hideout";
+	roundstart_template = /datum/map_template/shuttle/slaveship/basic;
+	width = 22
+	},
+/turf/open/floor/plating/asteroid/snow/airless,
+/area/slavers)
 "WO" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -20037,16 +20083,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supplypod)
-"WP" = (
-/obj/structure/toilet{
-	dir = 4
-	},
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/semen,
-/turf/open/floor/plasteel/freezer,
-/area/slavers)
 "WQ" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/centcom{
@@ -20071,6 +20107,15 @@
 /obj/structure/closet/syndicate/personal,
 /turf/open/floor/wood,
 /area/syndicate_mothership)
+"WU" = (
+/obj/structure/flora/bush,
+/obj/structure/sign/warning/securearea{
+	desc = "A warning sign which reads 'FOURTH WALL'.";
+	name = "\improper FOURTH WALL";
+	pixel_x = -32
+	},
+/turf/open/floor/plating/asteroid/snow/airless,
+/area/slavers)
 "WV" = (
 /obj/machinery/vending/cigarette,
 /obj/machinery/light{
@@ -20082,33 +20127,10 @@
 /obj/machinery/processor,
 /turf/open/floor/plasteel/cafeteria,
 /area/syndicate_mothership)
-"WY" = (
-/obj/structure/chair/wood/normal{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "WZ" = (
-/obj/structure/table,
-/obj/item/pen,
-/obj/item/instrument/harmonica,
-/turf/open/floor/plasteel,
-/area/slavers)
-"Xa" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/bar{
-	dir = 4
+/obj/machinery/door/airlock/centcom{
+	name = "Slave Preparation Room";
+	req_access_txt = "152"
 	},
 /turf/open/floor/plasteel/dark,
 /area/slavers)
@@ -20150,19 +20172,6 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
-"Xh" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel,
-/area/slavers)
-"Xi" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/circuit/green,
-/area/slavers/export)
 "Xk" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -20189,6 +20198,12 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"Xn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/slavers)
 "Xo" = (
 /obj/machinery/vending/dinnerware,
 /turf/open/floor/plasteel/cafeteria,
@@ -20229,20 +20244,10 @@
 /obj/effect/turf_decal/tile/green,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/firingrange)
-"Xv" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/slavers)
-"Xx" = (
-/obj/structure/sink{
-	pixel_y = 20
-	},
-/obj/structure/mirror{
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/freezer,
+"Xw" = (
+/obj/machinery/hydroponics/soil,
+/obj/item/shovel/spade,
+/turf/open/floor/grass,
 /area/slavers)
 "Xy" = (
 /obj/machinery/door/airlock/external{
@@ -20256,22 +20261,14 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/ferry)
-"XA" = (
-/obj/machinery/vending/coffee,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
-"XB" = (
-/obj/machinery/deepfryer,
-/obj/machinery/light{
-	dir = 1
-	},
+"Xz" = (
+/obj/structure/closet/secure_closet/freezer/kitchen/maintenance,
 /turf/open/floor/plasteel/cafeteria,
+/area/slavers)
+"XD" = (
+/obj/structure/closet/crate,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "XE" = (
 /obj/machinery/door/airlock/centcom{
@@ -20281,25 +20278,33 @@
 /turf/open/floor/plasteel,
 /area/syndicate_mothership)
 "XF" = (
-/obj/machinery/cryopod{
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/semen,
+/turf/open/floor/plasteel/freezer,
+/area/slavers)
+"XI" = (
+/obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/effect/turf_decal/bot,
-/obj/machinery/light{
-	dir = 1
+/turf/open/floor/plasteel,
+/area/slavers)
+"XJ" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
 /area/slavers)
-"XI" = (
-/obj/machinery/vending/boozeomat,
-/turf/open/floor/wood,
-/area/slavers)
-"XJ" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Restroom";
-	req_access_txt = "152"
+"XK" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "slavers_cell4"
 	},
-/turf/open/floor/plasteel/freezer,
+/turf/open/floor/plating,
 /area/slavers)
 "XL" = (
 /obj/machinery/door/airlock/wood,
@@ -20314,19 +20319,27 @@
 "XN" = (
 /turf/open/floor/carpet/red,
 /area/centcom/holding)
-"XP" = (
-/obj/machinery/mech_bay_recharge_port,
-/turf/open/floor/plasteel,
-/area/slavers)
-"XS" = (
+"XO" = (
+/obj/effect/turf_decal/bot_white,
+/obj/structure/closet/slaver,
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/obj/machinery/light{
-	dir = 4
+/obj/effect/turf_decal/tile/red{
+	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
+/area/slavers)
+"XQ" = (
+/obj/structure/sink/kitchen{
+	dir = 8;
+	pixel_x = 11
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/slavers)
+"XS" = (
+/turf/closed/indestructible/rock/snow,
 /area/slavers)
 "XT" = (
 /obj/structure/table/wood,
@@ -20339,12 +20352,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/centcom/evac)
-"XV" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "XW" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -27
@@ -20367,14 +20374,6 @@
 /obj/effect/landmark/holding_facility,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Ya" = (
-/obj/machinery/button/door{
-	id = "slavers_cell1";
-	name = "privacy shutters";
-	pixel_y = -26
-	},
-/turf/open/floor/plating,
-/area/slavers)
 "Yc" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
@@ -20408,32 +20407,34 @@
 /obj/structure/dresser,
 /turf/open/floor/plasteel/dark,
 /area/syndicate_mothership)
-"Yk" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
+"Yj" = (
+/turf/open/floor/plasteel/freezer,
 /area/slavers)
 "Ym" = (
 /obj/machinery/computer/arcade/orion_trail,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Yp" = (
-/obj/structure/chair{
-	dir = 8
+"Yn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
 	},
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/caution/stand_clear/white{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
+"Yo" = (
+/obj/machinery/door/airlock/centcom{
+	name = "Cell 2"
+	},
+/turf/open/floor/plating,
 /area/slavers)
 "Yr" = (
-/obj/machinery/sleeper{
-	dir = 8
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/centcom/evac)
+/obj/structure/closet,
+/obj/effect/turf_decal/bot,
+/obj/machinery/light,
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "Ys" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/mineral/plastitanium/red,
@@ -20461,8 +20462,8 @@
 	},
 /area/syndicate_mothership)
 "Yx" = (
-/obj/structure/closet/secure_closet/freezer/meat,
-/turf/open/floor/plasteel/cafeteria,
+/obj/machinery/vending/kink,
+/turf/open/floor/plasteel,
 /area/slavers)
 "Yy" = (
 /obj/machinery/door/airlock/titanium,
@@ -20475,28 +20476,27 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"YD" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Cell 1"
-	},
-/turf/open/floor/plating,
+"YA" = (
+/obj/item/reagent_containers/glass/bowl,
+/obj/effect/spawner/lootdrop/prison_contraband,
+/obj/item/reagent_containers/glass/bowl,
+/obj/item/reagent_containers/glass/bowl,
+/obj/item/reagent_containers/glass/bowl,
+/obj/item/reagent_containers/glass/bowl,
+/obj/item/reagent_containers/glass/bowl,
+/obj/item/reagent_containers/glass/bowl,
+/obj/item/reagent_containers/glass/bowl,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/storage/bag/tray/cafeteria,
+/obj/item/storage/bag/tray/cafeteria,
+/obj/item/storage/bag/tray/cafeteria,
+/obj/item/storage/bag/tray/cafeteria,
+/obj/item/storage/box/drinkingglasses,
+/obj/structure/window/reinforced,
+/obj/structure/table,
+/obj/item/kitchen/rollingpin,
+/turf/open/floor/plasteel/cafeteria,
 /area/slavers)
-"YE" = (
-/obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/taperecorder,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
 "YF" = (
 /obj/machinery/vending/clothing{
 	extended_inventory = 1
@@ -20507,11 +20507,6 @@
 /obj/item/hilbertshotel/ghostdojo,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"YI" = (
-/obj/structure/table,
-/obj/item/toy/cards/deck,
-/turf/open/floor/plasteel,
-/area/slavers)
 "YJ" = (
 /obj/item/reagent_containers/food/condiment/enzyme,
 /obj/item/reagent_containers/food/drinks/shaker,
@@ -20520,12 +20515,6 @@
 /obj/structure/closet/crate,
 /turf/open/floor/plasteel/cafeteria,
 /area/centcom/holding)
-"YK" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/slavers)
 "YN" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -20553,22 +20542,6 @@
 /obj/item/book/manual/hydroponics_pod_people,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"YQ" = (
-/obj/effect/turf_decal/delivery,
-/obj/structure/reagent_dispensers/watertank,
-/turf/open/floor/plasteel,
-/area/slavers)
-"YR" = (
-/obj/machinery/seed_extractor,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel,
-/area/slavers)
-"YT" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/plasteel/freezer,
-/area/slavers)
 "YU" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -20586,23 +20559,25 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"YX" = (
-/obj/machinery/vending/sustenance,
-/turf/open/floor/plasteel,
+"YW" = (
+/obj/structure/table/wood,
+/obj/item/toy/prize/mauler{
+	pixel_y = 12
+	},
+/turf/open/floor/wood,
 /area/slavers)
 "YY" = (
-/obj/structure/flora/grass/both,
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
 	},
-/turf/open/floor/plating/asteroid/snow/airless,
+/obj/effect/turf_decal/tile/bar{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "YZ" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/plating,
+/obj/effect/turf_decal/tile/red,
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "Za" = (
 /obj/machinery/door/airlock/wood{
@@ -20610,29 +20585,36 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/holding)
+"Zb" = (
+/obj/machinery/computer/slavery{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 "Zc" = (
 /turf/open/indestructible/binary,
 /area/space)
 "Zd" = (
 /obj/machinery/button/door{
-	id = "slavers_cell3";
+	id = "slavers_cell4";
 	name = "privacy shutters";
 	pixel_y = -26
 	},
 /turf/open/floor/plating,
 /area/slavers)
-"Ze" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
-	},
-/obj/machinery/sleeper{
-	dir = 4
-	},
+"Zf" = (
+/obj/machinery/space_heater,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/slavers)
 "Zg" = (
-/obj/machinery/vending/tool,
-/turf/open/floor/plasteel,
+/obj/machinery/processor,
+/turf/open/floor/plasteel/cafeteria,
 /area/slavers)
 "Zh" = (
 /obj/item/kirbyplants{
@@ -20659,30 +20641,39 @@
 /obj/structure/bed/dogbed,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Zn" = (
-/obj/structure/flora/grass/brown,
-/obj/effect/light_emitter{
-	set_cap = 1;
-	set_luminosity = 4
-	},
-/turf/open/floor/plating/asteroid/snow/airless,
+"Zm" = (
+/turf/open/floor/plasteel,
 /area/slavers)
-"Zq" = (
-/obj/item/storage/box/handcuffs{
-	pixel_x = 3;
-	pixel_y = 3
+"Zn" = (
+/obj/structure/sign/map/left{
+	pixel_y = -32
 	},
-/obj/item/storage/box/handcuffs,
-/obj/structure/table,
-/turf/open/floor/plasteel/dark,
+/obj/structure/rack{
+	icon = 'icons/obj/stationobjs.dmi';
+	icon_state = "minibar_left";
+	name = "skeletal minibar"
+	},
+/obj/machinery/chem_dispenser/drinks{
+	dir = 1
+	},
+/turf/open/floor/wood,
 /area/slavers)
 "Zr" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/dark,
 /area/syndicate_mothership)
 "Zs" = (
-/obj/effect/turf_decal/vg_decals/numbers/four,
-/turf/open/floor/plasteel,
+/obj/structure/chair/wood/normal{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark,
 /area/slavers)
 "Zv" = (
 /obj/structure/closet,
@@ -20709,32 +20700,30 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Zy" = (
-/obj/machinery/computer/shuttle/slaver/recall,
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "Zz" = (
 /obj/effect/landmark/start/nukeop_leader,
 /turf/open/floor/wood,
 /area/syndicate_mothership)
-"ZD" = (
-/obj/structure/sign/poster/official/obey{
-	pixel_x = -32
+"ZC" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
 	},
-/turf/open/floor/plasteel,
+/obj/effect/turf_decal/tile/bar{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/bar{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
+"ZD" = (
+/turf/open/floor/plating/asteroid/snow/airless,
 /area/slavers)
 "ZE" = (
-/obj/structure/closet/secure_closet/freezer/kitchen/maintenance,
-/turf/open/floor/plasteel/cafeteria,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
 /area/slavers)
 "ZF" = (
 /obj/effect/turf_decal/tile/brown,
@@ -20743,20 +20732,20 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/four)
-"ZG" = (
-/obj/structure/closet,
-/obj/effect/turf_decal/bot,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/slavers)
 "ZH" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/plating,
 /area/syndicate_mothership)
+"ZI" = (
+/obj/machinery/shower{
+	dir = 8;
+	pixel_y = -4
+	},
+/obj/item/soap/nanotrasen,
+/turf/open/floor/plasteel/freezer,
+/area/slavers)
 "ZJ" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Security";
@@ -20783,10 +20772,6 @@
 /obj/machinery/vending/snack,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"ZO" = (
-/obj/machinery/light/small,
-/turf/open/floor/plasteel/freezer,
-/area/slavers)
 "ZP" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -20843,6 +20828,15 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supply)
+"ZY" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/slavers)
 
 (1,1,1) = {"
 aa
@@ -47563,7 +47557,7 @@ KV
 Qb
 KV
 yg
-LP
+Lb
 Lw
 aa
 aa
@@ -47807,7 +47801,7 @@ KH
 KY
 Lb
 KV
-Yr
+Lh
 Lb
 Li
 Li
@@ -48064,7 +48058,7 @@ KO
 KV
 KV
 KV
-PQ
+Uo
 Lb
 Lp
 Lp
@@ -55192,7 +55186,7 @@ aa
 aa
 aa
 oe
-YE
+rk
 sq
 to
 uj
@@ -57264,7 +57258,7 @@ oA
 uV
 Bu
 BZ
-sj
+Cq
 mD
 aa
 aa
@@ -57503,7 +57497,7 @@ of
 oA
 oX
 pH
-Ot
+qb
 mD
 rs
 sw
@@ -58033,7 +58027,7 @@ zb
 pg
 Ac
 AK
-Bq
+Bw
 pg
 Ct
 nT
@@ -62950,7 +62944,7 @@ JI
 JQ
 Ka
 JG
-Rv
+Kp
 IR
 KG
 Iv
@@ -63175,7 +63169,7 @@ tL
 io
 iu
 io
-JJ
+CH
 vM
 Ds
 DG
@@ -67285,7 +67279,7 @@ iu
 zI
 Ar
 nq
-Ze
+we
 iu
 qv
 iu
@@ -67799,7 +67793,7 @@ iu
 zJ
 Ar
 nq
-BJ
+EZ
 iu
 lN
 iu
@@ -68546,7 +68540,7 @@ iH
 iq
 iA
 il
-OA
+mU
 nt
 nO
 iC
@@ -71109,7 +71103,7 @@ aa
 aa
 aa
 in
-fR
+kc
 kl
 kE
 lb
@@ -71401,7 +71395,7 @@ BP
 Cf
 Cc
 Dg
-wk
+DA
 VO
 WK
 WK
@@ -72478,24 +72472,24 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
 aa
 aa
 aa
@@ -72728,31 +72722,31 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
-Vl
-Uo
-Uo
-Uo
-Uo
-Rj
-Uo
-Uo
-zw
-zw
-zw
-zw
-zw
-zw
-zw
-zw
-Rj
-Vl
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+XS
+ZD
+ZD
+ZD
+ZD
+Co
+ZD
+ZD
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+Co
+XS
 aa
 aa
 aa
@@ -72984,32 +72978,32 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-zw
-zw
-zw
-zw
-zw
-zw
-zw
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-zw
-zw
-Vl
+XS
+XS
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+GN
+GN
+XS
 aa
 aa
 aa
@@ -73241,32 +73235,32 @@ aa
 aa
 aa
 aa
-Vl
-Rj
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Rj
-zw
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-zw
-Vl
+XS
+Co
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+Co
+GN
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+GN
+XS
 aa
 aa
 aa
@@ -73497,33 +73491,33 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-Uo
-On
-zw
-zw
-zw
-zw
-zw
-zw
-Uo
-zw
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-zw
-Vl
+XS
+XS
+ZD
+JV
+GN
+GN
+GN
+GN
+GN
+GN
+ZD
+GN
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+GN
+XS
 aa
 aa
 aa
@@ -73752,35 +73746,35 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-Vl
-Uo
-Uo
-zw
-Uo
-Uo
-Uo
-Uo
-Uo
-zw
-zw
-zw
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-zw
-Vl
+XS
+XS
+XS
+ZD
+ZD
+GN
+ZD
+ZD
+ZD
+ZD
+ZD
+GN
+GN
+GN
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+GN
+XS
 aa
 aa
 aa
@@ -74008,36 +74002,36 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-Uo
-Uo
-Uo
-rj
-zw
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-zw
-Vl
+XS
+XS
+ZD
+ZD
+ZD
+vs
+GN
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+GN
+XS
 aa
 aa
 aa
@@ -74265,36 +74259,36 @@ aa
 aa
 aa
 aa
-Vl
-Wy
-Uo
-NN
-Uo
-Uo
-zw
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Vl
+XS
+WU
+ZD
+Ol
+ZD
+ZD
+GN
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+XS
 aa
 aa
 aa
@@ -74521,37 +74515,37 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-Uo
-Uo
-Uo
-Rj
-Uo
-zw
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Vl
+XS
+XS
+ZD
+ZD
+ZD
+Co
+ZD
+GN
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+XS
 aa
 aa
 aa
@@ -74778,37 +74772,37 @@ aa
 aa
 aa
 aa
-Vl
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-sl
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Vl
+XS
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+wo
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+XS
 aa
 aa
 aa
@@ -75035,37 +75029,37 @@ aa
 aa
 aa
 aa
-Vl
-Uo
-Uo
-Uo
-NN
-Uo
-Uo
-zw
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Vl
+XS
+ZD
+ZD
+ZD
+Ol
+ZD
+ZD
+GN
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+XS
 aa
 aa
 aa
@@ -75292,37 +75286,37 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-rj
-Uo
-Uo
-Uo
-NN
-zw
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Vl
+XS
+XS
+vs
+ZD
+ZD
+ZD
+Ol
+GN
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+XS
 aa
 aa
 aa
@@ -75549,37 +75543,37 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-Uo
-Uo
-Uo
-Uo
-Rj
-zw
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-zw
-Vl
+XS
+XS
+ZD
+ZD
+ZD
+ZD
+Co
+GN
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+GN
+XS
 aa
 aa
 aa
@@ -75806,37 +75800,37 @@ aa
 aa
 aa
 aa
-Vl
-Cl
-NN
-Uo
-rj
-Uo
-Uo
-zw
-Uo
-Uo
-Uo
-Uo
-Uo
-zw
-sl
-zw
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-zw
-Vl
+XS
+wV
+Ol
+ZD
+vs
+ZD
+ZD
+GN
+ZD
+ZD
+ZD
+ZD
+ZD
+GN
+wo
+GN
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+GN
+XS
 aa
 aa
 aa
@@ -76062,38 +76056,38 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-Rj
-Uo
-Uo
-Uo
-Uo
-Uo
-zw
-sl
-zw
-zw
-zw
-Zn
-zw
-zw
-zw
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-zw
-Vl
+XS
+XS
+Co
+ZD
+ZD
+ZD
+ZD
+ZD
+GN
+wo
+GN
+GN
+GN
+Ut
+GN
+GN
+GN
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+GN
+XS
 aa
 aa
 aa
@@ -76319,38 +76313,38 @@ aa
 aa
 aa
 aa
-Vl
-rj
-Uo
-Uo
-Uo
-zw
-zw
-zw
-YY
-zw
-zw
-sl
-zw
-zw
-zw
-zw
-Zn
-Uo
-Uo
-Uo
-OK
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-zw
-Vl
+XS
+vs
+ZD
+ZD
+ZD
+GN
+GN
+GN
+lm
+GN
+GN
+wo
+GN
+GN
+GN
+GN
+Ut
+ZD
+ZD
+ZD
+WN
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+GN
+XS
 aa
 aa
 aa
@@ -76576,38 +76570,38 @@ aa
 aa
 aa
 aa
-Vl
-Uo
-Uo
-Uo
-zw
-sl
-mC
+XS
+ZD
+ZD
+ZD
+GN
+wo
+sm
+Pi
+Pi
+Pi
+sm
+GN
+sm
+Pi
+Pi
+Pi
+sm
+GN
+wo
+Pi
 Nr
-Nr
-Nr
-mC
-zw
-mC
-Nr
-Nr
-Nr
-mC
-zw
-sl
-Nr
-xC
-Nr
-zw
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-Uo
-sl
-Vl
+Pi
+GN
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+ZD
+wo
+XS
 aa
 aa
 aa
@@ -76833,38 +76827,38 @@ aa
 aa
 aa
 aa
-Vl
-sl
-zw
-zw
-zw
-mC
-mC
-ny
-NE
-Pe
-mC
-mC
-mC
-Up
-NL
-Up
-mC
-mC
-zw
-Nr
-Bp
-Nr
-sl
-zw
-zw
-On
-sl
-zw
-sl
-zw
-zw
-Vl
+XS
+wo
+GN
+GN
+GN
+sm
+sm
+Wh
+Vr
+WF
+sm
+sm
+sm
+xM
+Zb
+xM
+sm
+sm
+GN
+Pi
+CV
+Pi
+wo
+GN
+GN
+JV
+wo
+GN
+wo
+GN
+GN
+XS
 aa
 aa
 aa
@@ -77090,38 +77084,38 @@ aa
 aa
 aa
 aa
-Vl
-mC
-Nr
-Nr
-Nr
-mC
-Wh
-MV
-OD
-US
-Mp
-mC
-Ue
-Up
-Up
-Up
-Rt
-mC
-mC
-mC
-Pd
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-mC
+XS
+sm
+Pi
+Pi
+Pi
+sm
+QH
+Wn
+tk
+TL
+Fc
+sm
+KE
+xM
+xM
+xM
+vq
+sm
+sm
+sm
+Wy
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+sm
 aa
 aa
 aa
@@ -77348,37 +77342,37 @@ aa
 aa
 aa
 aa
-mC
-NR
-Cm
-wo
-mC
-qO
-OD
-OD
-OD
-tZ
-mC
-Ue
-Xi
-Xi
-Xi
-Rt
-mC
-Zy
-TX
-Tm
+sm
+GZ
+Yj
+OQ
+sm
+RY
+tk
+tk
+tk
+Bp
+sm
+KE
+Hi
+Hi
+Hi
+vq
+sm
+ly
+AI
+Yn
+tn
+SQ
 Sz
-GB
-Ny
-Lu
-XI
-mC
-UY
-CQ
-SS
-Kz
-mC
+Os
+Lf
+sm
+Kl
+wZ
+ui
+Wa
+sm
 aa
 aa
 aa
@@ -77605,37 +77599,37 @@ aa
 aa
 aa
 aa
-mC
-Xx
-Cm
-AF
-mC
-Rc
-OD
-OD
-OD
-XV
-RC
-se
-OD
-OD
-OD
-Vr
-RC
-Tv
-OD
-OD
-OD
-SK
-TG
-UN
-UN
-Qj
-jA
-jA
-jA
-yi
-mC
+sm
+Ll
+Yj
+yh
+sm
+Up
+tk
+tk
+tk
+XJ
+Od
+uL
+tk
+tk
+tk
+ZY
+Od
+Rn
+tk
+tk
+tk
+Sa
+OY
+RB
+RB
+NJ
+Se
+Se
+Se
+Th
+sm
 aa
 aa
 aa
@@ -77862,37 +77856,37 @@ aa
 aa
 aa
 aa
-mC
-Ki
-Cm
-Cm
-XJ
-IO
-OD
-OD
-OD
-OD
-OD
-OD
-OD
-OD
-OD
-OD
-OD
-OD
-OD
-OD
-OD
-SK
-Qp
-UN
-UN
-mC
-uI
-jA
-jA
-Fc
-mC
+sm
+Lu
+Yj
+Yj
+Py
+VZ
+tk
+tk
+tk
+tk
+tk
+tk
+tk
+tk
+tk
+tk
+tk
+tk
+tk
+tk
+tk
+Sa
+wS
+RB
+RB
+sm
+Pa
+Se
+Se
+Rp
+sm
 aa
 aa
 aa
@@ -78119,37 +78113,37 @@ aa
 aa
 aa
 aa
-mC
-Wa
-Cm
-zc
-mC
-Pq
-Cj
-Cj
-Cj
-Cj
-Nm
-Cj
-Cj
-PC
-PC
-Cj
-Yk
-SC
-OD
-OD
-OD
-SK
-TG
-UN
-MJ
-mC
-ZE
-jA
-jA
-jA
-KF
+sm
+WB
+Yj
+Pc
+sm
+VG
+Ox
+Ox
+Ox
+Ox
+UK
+Ox
+Ox
+hH
+hH
+Ox
+Qc
+Pt
+tk
+tk
+tk
+Sa
+OY
+RB
+Zn
+sm
+Xz
+Se
+Se
+Se
+Mr
 aa
 aa
 aa
@@ -78376,37 +78370,37 @@ aa
 aa
 aa
 aa
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-NY
-TR
-mC
-mC
-mC
-Tl
-PH
-Tl
-mC
-mC
-Cn
-OD
-OD
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+Qr
+Vg
+sm
+sm
+sm
+WZ
+IO
+WZ
+sm
+sm
+Zs
+tk
+tk
+YZ
+Ph
+NA
+ED
+MT
+sm
 RJ
-Rs
-Lf
-Xv
-Nt
-mC
-Yx
-yL
-sg
-uL
-mC
+zT
+Vy
+Zg
+sm
 aa
 aa
 aa
@@ -78638,32 +78632,32 @@ aa
 aa
 aa
 aa
-mC
-xE
-OG
-OG
-XP
-mC
-xF
-Xa
-we
-yM
-xF
-mC
-Pm
-OD
-OD
-VD
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-mC
+sm
+sj
+Zm
+Zm
+Wv
+sm
+XD
+ZC
+YY
+Tm
+XD
+sm
+KF
+tk
+tk
+Ty
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+sm
 aa
 aa
 aa
@@ -78895,30 +78889,30 @@ aa
 aa
 aa
 aa
-mC
-Zg
-OG
-OG
-Wo
-mC
-Us
-rZ
-OD
-re
-Us
-mC
-WY
-OD
-OD
-XV
-Vr
-px
-mC
-Rj
-Uo
-rj
-Vl
-Vl
+sm
+SC
+Zm
+Zm
+MY
+sm
+Ml
+wT
+tk
+FC
+Ml
+sm
+wn
+tk
+tk
+XJ
+ZY
+No
+sm
+Co
+ZD
+vs
+XS
+XS
 aa
 aa
 aa
@@ -79152,30 +79146,30 @@ aa
 aa
 aa
 aa
-mC
-TK
-OG
-OG
-Rr
-mC
-Us
-rZ
-OD
-re
-Us
-mC
-Vh
-OD
-OD
-OD
-OD
-VE
-Nr
-Uo
-Uo
-Uo
-Uo
-Vl
+sm
+Zf
+Zm
+Zm
+RH
+sm
+Ml
+wT
+tk
+FC
+Ml
+sm
+ti
+tk
+tk
+tk
+tk
+TI
+Pi
+ZD
+ZD
+ZD
+ZD
+XS
 aa
 aa
 aa
@@ -79205,7 +79199,7 @@ ct
 bH
 cQ
 cX
-Qi
+TT
 ac
 dq
 dM
@@ -79409,31 +79403,31 @@ aa
 aa
 aa
 aa
-mC
-Pj
-OG
-WE
-Rw
-mC
-ZG
-rZ
-OD
-re
-Vi
-mC
-XA
-OD
-OD
-OD
-OD
-Le
-Nr
-Uo
-Uo
-NN
-Uo
-Vl
-Vl
+sm
+QZ
+Zm
+RV
+Rj
+sm
+FY
+wT
+tk
+FC
+Yr
+sm
+Qv
+tk
+tk
+tk
+tk
+px
+Pi
+ZD
+ZD
+Ol
+ZD
+XS
+XS
 aa
 aa
 aa
@@ -79666,31 +79660,31 @@ aa
 aa
 aa
 aa
-mC
-KE
-OG
-OG
-OG
-mC
-Us
-rZ
-OD
-re
-Us
-mC
-qM
-OD
-OD
-OD
-OD
-VE
-Nr
-Uo
-Uo
-Uo
-Uo
-rj
-Vl
+sm
+SX
+Zm
+Zm
+Zm
+sm
+Ml
+wT
+tk
+FC
+Ml
+sm
+Dj
+tk
+tk
+tk
+tk
+TI
+Pi
+ZD
+ZD
+ZD
+ZD
+vs
+XS
 aa
 aa
 aa
@@ -79719,7 +79713,7 @@ cu
 bH
 bH
 bH
-dd
+TU
 ac
 ds
 dL
@@ -79921,33 +79915,33 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-mC
-TC
-YQ
-RL
-Rp
-mC
-Zq
-LI
-WI
-FU
-Wk
-mC
-FC
-PC
 XS
-PC
-PC
-Pf
-mC
-Uo
-rj
-Uo
-Uo
-Uo
-Vl
+XS
+sm
+Pq
+VJ
+Tp
+MZ
+sm
+wf
+so
+yS
+Mo
+Wk
+sm
+Qg
+hH
+xC
+hH
+hH
+XO
+sm
+ZD
+vs
+ZD
+ZD
+ZD
+XS
 aa
 aa
 aa
@@ -80177,34 +80171,34 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-Uo
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-NO
-PH
-NO
-mC
-mC
-mC
-mC
-mC
-TW
-mC
-mC
-mC
-mC
-Uo
-Uo
-Uo
-Vl
-Vl
+XS
+XS
+ZD
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+JY
+IO
+JY
+sm
+sm
+sm
+sm
+sm
+Vi
+sm
+sm
+sm
+sm
+ZD
+ZD
+ZD
+XS
+XS
 aa
 aa
 aa
@@ -80434,33 +80428,33 @@ aa
 aa
 aa
 aa
-Vl
-rj
-Uo
-rj
-mC
-mC
-RU
-qP
-yh
-YX
-OG
-OG
-OG
-tb
-pC
-WL
-mC
+XS
+vs
+ZD
+vs
+sm
+sm
+Ta
+RN
+Wg
+TC
+Zm
+Zm
+Zm
+Kf
+Ss
+VL
+sm
+Km
+RB
 Os
-UN
-Lu
-zv
-VU
-mC
-Uo
-Uo
-NN
-Vl
+PM
+Rk
+sm
+ZD
+ZD
+Ol
+XS
 aa
 aa
 aa
@@ -80691,33 +80685,33 @@ aa
 aa
 aa
 aa
-Vl
-Uo
-NN
-Uo
-Nr
-TL
-sh
-sh
-yh
-SG
-OG
-OG
-OG
-AE
-Sm
-Fl
-mC
-SX
-UN
-UN
-UN
-UN
-Nr
-Uo
-Uo
-Rj
-Vl
+XS
+ZD
+Ol
+ZD
+Pi
+BT
+XI
+XI
+Wg
+Im
+Zm
+Zm
+Zm
+PC
+Qf
+RW
+sm
+TW
+RB
+RB
+RB
+RB
+Pi
+ZD
+ZD
+Co
+XS
 aa
 aa
 aa
@@ -80948,34 +80942,34 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-Uo
-Uo
-Nr
-OG
-SJ
-OG
-Uf
-OG
-OG
-OG
-OG
-AE
-Dy
-Kd
-mC
-UN
-UN
-UN
-UN
-UN
-Nr
-Rj
-Uo
-Uo
-Vl
-Vl
+XS
+XS
+ZD
+ZD
+Pi
+Zm
+rZ
+Zm
+pE
+Zm
+Zm
+Zm
+Zm
+PC
+Su
+NQ
+sm
+RB
+RB
+RB
+RB
+RB
+Pi
+Co
+ZD
+ZD
+XS
+XS
 aa
 aa
 aa
@@ -81205,34 +81199,34 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-Uo
-Rj
-Nr
-Sa
-Bj
-Bj
-yh
-RP
-OG
-OG
-OG
-AE
-Dy
-Fl
-mC
-NH
-Km
-Km
-Km
-UM
-mC
-Uo
-Uo
-Uo
-Uo
-Vl
+XS
+XS
+ZD
+Co
+Pi
+rj
+Xn
+Xn
+Wg
+Ke
+Zm
+Zm
+Zm
+PC
+Su
+RW
+sm
+YW
+VN
+VN
+VN
+WG
+sm
+ZD
+ZD
+ZD
+ZD
+XS
 aa
 aa
 aa
@@ -81462,34 +81456,34 @@ aa
 aa
 aa
 aa
-Vl
-Uo
-Uo
-Uo
-mC
-mC
-XF
-Tc
-yh
-QI
-OG
-OG
-OG
-TN
-Xh
-uK
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-Uo
-Uo
-Uo
-Uo
-Vl
+XS
+ZD
+ZD
+ZD
+sm
+sm
+UM
+xK
+Wg
+Sm
+Zm
+Zm
+Zm
+Sj
+OC
+Uz
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+ZD
+ZD
+ZD
+ZD
+XS
 aa
 aa
 aa
@@ -81719,35 +81713,35 @@ aa
 aa
 aa
 aa
-Vl
-Uo
-Uo
-NN
-Uo
-mC
-mC
-mC
-mC
-OT
-tw
-OG
-OG
-xD
-wZ
-th
-mC
-mC
-Bp
-Qf
-Bp
-mC
-Uo
-Uo
-Uo
-Rj
-Uo
-Vl
-Vl
+XS
+ZD
+ZD
+Ol
+ZD
+sm
+sm
+sm
+sm
+QY
+NH
+Zm
+Zm
+Sq
+PQ
+AC
+sm
+sm
+CV
+pA
+CV
+sm
+ZD
+ZD
+ZD
+Co
+ZD
+XS
+XS
 aa
 aa
 aa
@@ -81976,35 +81970,35 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-Uo
-rj
-mC
-mC
-UJ
-vq
-Rn
-OG
-OG
-OG
-OG
-OG
-OG
-OG
-Dp
-mC
-Ke
-Bp
-Ke
-mC
-rj
-Uo
-Uo
-NN
-rj
-Uo
-Vl
+XS
+XS
+ZD
+vs
+sm
+sm
+PK
+fy
+YA
+Zm
+Zm
+Zm
+Zm
+Zm
+Zm
+Zm
+UR
+sm
+PB
+CV
+PB
+sm
+vs
+ZD
+ZD
+Ol
+vs
+ZD
+XS
 aa
 aa
 aa
@@ -82234,34 +82228,34 @@ aa
 aa
 aa
 aa
-Vl
-Uo
-Uo
-Nr
-TH
-jA
-jA
-jA
-OG
-AC
-AC
-OG
-WA
-Bo
-OG
-BU
-mC
-Bp
-Bp
-xM
-mC
-Uo
-Rj
-Uo
-Uo
-Uo
-rj
-Vl
+XS
+ZD
+ZD
+Pi
+UY
+Se
+Se
+Se
+Zm
+FV
+FV
+Zm
+VD
+Xw
+Zm
+qh
+sm
+CV
+CV
+Zd
+sm
+ZD
+Co
+ZD
+ZD
+ZD
+vs
+XS
 aa
 aa
 aa
@@ -82491,34 +82485,34 @@ aa
 aa
 aa
 aa
-Vl
-Rj
-Uo
-Nr
-uI
-Ww
-jA
-jA
-OG
-OW
-YI
-OG
-OG
-OG
-OG
-YR
-mC
+XS
+Co
+ZD
+Pi
+Pa
+MO
+Se
+Se
+Zm
+zZ
 vz
-NM
-vz
-mC
-Uo
-Uo
-Uo
-Uo
-Uo
-Vl
-Vl
+Zm
+Zm
+Zm
+Zm
+Bn
+sm
+XK
+Rs
+XK
+sm
+ZD
+ZD
+ZD
+ZD
+ZD
+XS
+XS
 aa
 aa
 aa
@@ -82548,7 +82542,7 @@ cS
 cY
 dh
 bj
-Ne
+dy
 dV
 ep
 eB
@@ -82748,33 +82742,33 @@ aa
 aa
 aa
 aa
-Vl
-NN
-Uo
-Nr
-Vm
-jA
-jA
-jA
-OG
-WZ
-Nb
-OG
-SO
-Uz
-Uz
-mC
-mC
-MO
-Zs
-OG
-Nr
-Uo
-NN
-Uo
-Uo
-MA
-Vl
+XS
+Ol
+ZD
+Pi
+OW
+Se
+Se
+Se
+Zm
+Nq
+Tx
+Zm
+Te
+Rc
+Rc
+sm
+sm
+Yx
+uI
+Zm
+Pi
+ZD
+Ol
+ZD
+ZD
+NI
+XS
 aa
 aa
 aa
@@ -83005,33 +82999,33 @@ aa
 aa
 aa
 aa
-Vl
-Vl
-Uo
-mC
-mC
-XB
-Um
-Wf
-OG
-Yp
-Yp
-OG
-OG
-OG
-OG
+XS
+XS
 ZD
-YK
-OG
-OG
-OG
-Nr
-Rj
-Uo
-Uo
-Uo
-Uo
-Vl
+sm
+sm
+Tq
+XQ
+sd
+Zm
+WA
+WA
+Zm
+Zm
+Zm
+Zm
+qL
+ZE
+Zm
+Zm
+Zm
+Pi
+Co
+ZD
+ZD
+ZD
+ZD
+XS
 aa
 aa
 aa
@@ -83263,32 +83257,32 @@ aa
 aa
 aa
 aa
+XS
+XS
+sm
+sm
+sm
+sm
+sm
+Zm
+Zm
+Zm
+NM
 Vl
-Vl
-mC
-mC
-mC
-mC
-mC
-OG
-OG
-OG
-xN
-Ro
-OG
-OG
-EZ
-OG
-OG
-qN
-OG
-Nr
-Uo
-Uo
-NN
-Rj
-Vl
-Vl
+Zm
+Zm
+tZ
+Zm
+Zm
+TR
+Zm
+Pi
+ZD
+ZD
+Ol
+Co
+XS
+XS
 aa
 aa
 aa
@@ -83522,29 +83516,29 @@ aa
 aa
 aa
 aa
-mC
-WP
-mC
-Qv
-mC
-mC
-VG
-mC
-mC
-YD
-VL
-mC
-Dl
-Pt
-mC
-Tt
-Kf
-mC
-Uo
-Uo
-Uo
-Uo
-Vl
+sm
+XF
+sm
+AF
+sm
+sm
+Ub
+sm
+sm
+MR
+In
+sm
+Yo
+Pd
+sm
+Vo
+JJ
+sm
+ZD
+ZD
+ZD
+ZD
+XS
 aa
 aa
 aa
@@ -83779,29 +83773,29 @@ aa
 aa
 aa
 aa
-mC
-PN
-mC
-PN
-mC
-wS
-Cm
-Cm
-mC
-Bp
-Ya
-mC
-Bp
-Rg
-mC
-Bp
-Zd
-mC
-Uo
-Uo
-rj
-Vl
-Vl
+sm
+Rd
+sm
+Rd
+sm
+pF
+Yj
+Yj
+sm
+CV
+Tl
+sm
+CV
+Lz
+sm
+CV
+US
+sm
+ZD
+ZD
+vs
+XS
+XS
 aa
 aa
 aa
@@ -84036,28 +84030,28 @@ aa
 aa
 aa
 aa
-mC
-Cm
-Cm
-Cm
-Cm
-Cm
-Cm
-ZO
-mC
-HQ
-yT
-mC
-YZ
-yT
-mC
-Sk
-yT
-mC
-Rj
-Vl
-Vl
-Vl
+sm
+Yj
+Yj
+Yj
+Yj
+Yj
+Yj
+Lk
+sm
+OP
+qP
+sm
+TK
+qP
+sm
+Wd
+qP
+sm
+Co
+XS
+XS
+XS
 aa
 aa
 aa
@@ -84293,26 +84287,26 @@ aa
 aa
 aa
 aa
-mC
-Sq
-YT
-Sq
-Cm
-lm
-Vy
-lm
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-Vl
-Vl
+sm
+pY
+Kd
+pY
+Yj
+Lo
+ZI
+Lo
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+XS
+XS
 aa
 aa
 aa
@@ -84550,15 +84544,15 @@ aa
 aa
 aa
 aa
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-mC
-mC
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+sm
+sm
 aa
 aa
 aa
