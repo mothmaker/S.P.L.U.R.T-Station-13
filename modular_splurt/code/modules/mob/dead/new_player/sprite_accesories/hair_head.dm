@@ -11,7 +11,7 @@
 	icon_state = "hair_tailhair"
 
 /datum/sprite_accessory/hair/eros/whor_eee
-	name = "(((Hairfre)))"
+	name = "((((((Hairfre))))))"
 	icon_state = "hair_hairfre"
 
 /datum/sprite_accessory/hair/eros/sidehair
@@ -25,3 +25,7 @@
 /datum/sprite_accessory/hair/eros/aviancrest
 	name = "Avian Crest"
 	icon_state = "hair_aviancrest"
+
+/datum/sprite_accessory/hair/eros/glamour
+	name = "Glamour"
+	icon_state = "hair_glamourh"

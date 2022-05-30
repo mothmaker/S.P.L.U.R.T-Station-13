@@ -1116,27 +1116,8 @@
 	icon_state = "white"
 	},
 /area/holodeck/rec_center/medical)
-"db" = (
-/obj/structure/window{
-	dir = 8
-	},
-/obj/machinery/sleeper{
-	dir = 1
-	},
-/turf/open/floor/holofloor{
-	icon_state = "white"
-	},
-/area/holodeck/rec_center/medical)
 "dc" = (
 /obj/machinery/iv_drip,
-/turf/open/floor/holofloor{
-	icon_state = "white"
-	},
-/area/holodeck/rec_center/medical)
-"dd" = (
-/obj/machinery/sleeper{
-	dir = 1
-	},
 /turf/open/floor/holofloor{
 	icon_state = "white"
 	},
@@ -1277,6 +1258,14 @@
 "dx" = (
 /obj/structure/table/wood/fancy,
 /obj/item/storage/book/bible,
+/turf/open/floor/holofloor{
+	dir = 8;
+	icon_state = "dark"
+	},
+/area/holodeck/rec_center/chapelcourt)
+"dy" = (
+/obj/structure/table/wood/fancy,
+/obj/item/book/manual/splurt_space_law,
 /turf/open/floor/holofloor{
 	dir = 8;
 	icon_state = "dark"
@@ -3971,6 +3960,22 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
+"kc" = (
+/obj/item/book/manual/splurt_space_law,
+/obj/item/taperecorder,
+/obj/structure/table/wood,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "kd" = (
 /obj/item/wrench,
 /obj/item/restraints/handcuffs,
@@ -5287,6 +5292,21 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel,
+/area/centcom/control)
+"mU" = (
+/obj/item/book/manual/splurt_space_law,
+/obj/structure/table/wood,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "mV" = (
 /obj/machinery/vending/cola,
@@ -7040,6 +7060,28 @@
 /obj/effect/light_emitter,
 /turf/open/floor/plating/asteroid/snow/airless,
 /area/syndicate_mothership)
+"qb" = (
+/obj/structure/table/wood,
+/obj/item/folder/red,
+/obj/item/book/manual/splurt_space_law,
+/obj/item/restraints/handcuffs,
+/obj/item/assembly/flash/handheld,
+/obj/machinery/airalarm{
+	dir = 1;
+	pixel_y = -22
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/ferry)
 "qc" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
@@ -7506,6 +7548,29 @@
 /obj/item/pen/fountain,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"rj" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/machinery/computer/cryopod{
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel,
+/area/slavers)
+"rk" = (
+/obj/structure/table/reinforced,
+/obj/item/book/manual/splurt_space_law,
+/obj/item/taperecorder,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/ferry)
 "rl" = (
 /obj/machinery/computer/auxillary_base{
 	pixel_y = 32
@@ -8502,12 +8567,6 @@
 	},
 /turf/open/floor/plating,
 /area/syndicate_mothership)
-"tf" = (
-/obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/taperecorder,
-/turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
 "tg" = (
 /obj/machinery/shower{
 	dir = 4
@@ -9963,6 +10022,15 @@
 	},
 /turf/open/floor/carpet,
 /area/wizard_station)
+"we" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/centcom/control)
 "wf" = (
 /obj/item/storage/box/handcuffs{
 	pixel_x = 3;
@@ -12042,6 +12110,12 @@
 	},
 /turf/open/floor/plasteel/grimy,
 /area/centcom/ferry)
+"Bw" = (
+/obj/structure/table/reinforced,
+/obj/item/book/manual/splurt_space_law,
+/obj/item/taperecorder,
+/turf/open/floor/plasteel/grimy,
+/area/centcom/ferry)
 "Bx" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/fancy/donut_box,
@@ -12199,15 +12273,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/centcom/control)
-"BH" = (
-/obj/machinery/sleeper{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
-	},
-/turf/open/floor/plasteel,
-/area/centcom/control)
 "BI" = (
 /obj/machinery/light,
 /obj/structure/noticeboard{
@@ -12216,15 +12281,6 @@
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/centcom/control)
-"BJ" = (
-/obj/machinery/sleeper{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 5
 	},
 /turf/open/floor/plasteel,
 /area/centcom/control)
@@ -12487,6 +12543,24 @@
 /obj/structure/statue/uranium/nuke,
 /turf/open/floor/plating/asteroid/snow/airless,
 /area/syndicate_mothership)
+"Cq" = (
+/obj/structure/table/wood,
+/obj/item/folder/red,
+/obj/item/book/manual/splurt_space_law,
+/obj/item/restraints/handcuffs,
+/obj/item/assembly/flash/handheld,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/ferry)
 "Cr" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
@@ -12728,6 +12802,26 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/ferry)
+"CH" = (
+/obj/structure/table/reinforced,
+/obj/item/book/manual/splurt_space_law,
+/obj/item/taperecorder,
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/control)
 "CI" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -13200,6 +13294,22 @@
 /obj/item/paper_bin,
 /obj/item/pen,
 /obj/machinery/light,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/evac)
+"DA" = (
+/obj/structure/table/reinforced,
+/obj/item/book/manual/splurt_space_law,
+/obj/item/taperecorder,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -13897,6 +14007,13 @@
 	},
 /turf/open/floor/engine/cult,
 /area/wizard_station)
+"EZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/stasis,
+/turf/open/floor/plasteel,
+/area/centcom/control)
 "Fa" = (
 /obj/structure/table/wood,
 /obj/item/instrument/piano_synth,
@@ -16458,6 +16575,24 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/tdome/tdomeadmin)
+"Kp" = (
+/obj/structure/table/wood,
+/obj/item/folder/red,
+/obj/item/book/manual/splurt_space_law,
+/obj/item/restraints/handcuffs,
+/obj/item/assembly/flash/handheld,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/tdome/tdomeadmin)
 "Kq" = (
 /obj/structure/table/wood,
 /obj/item/clipboard,
@@ -17694,21 +17829,6 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"NZ" = (
-/obj/item/book/manual/splurt_space_law,
-/obj/structure/table/wood,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/control)
 "Oa" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
@@ -17900,14 +18020,6 @@
 /obj/structure/bedsheetbin/towel,
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
-"OJ" = (
-/obj/structure/table/wood/fancy,
-/obj/item/book/manual/splurt_space_law,
-/turf/open/floor/holofloor{
-	dir = 8;
-	icon_state = "dark"
-	},
-/area/holodeck/rec_center/chapelcourt)
 "OL" = (
 /obj/structure/mineral_door/paperframe{
 	name = "Dojo"
@@ -18009,24 +18121,6 @@
 	},
 /turf/open/floor/plating,
 /area/slavers)
-"Pe" = (
-/obj/structure/table/wood,
-/obj/item/folder/red,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/restraints/handcuffs,
-/obj/item/assembly/flash/handheld,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/tdome/tdomeadmin)
 "Pg" = (
 /obj/machinery/light{
 	dir = 1
@@ -18907,22 +19001,6 @@
 /obj/item/mop,
 /turf/open/floor/plasteel/cafeteria,
 /area/centcom/holding)
-"SO" = (
-/obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/taperecorder,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
 "SP" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/space/basic,
@@ -18989,28 +19067,6 @@
 /obj/structure/table/wood,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"SZ" = (
-/obj/structure/table/wood,
-/obj/item/folder/red,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/restraints/handcuffs,
-/obj/item/assembly/flash/handheld,
-/obj/machinery/airalarm{
-	dir = 1;
-	pixel_y = -22
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
 "Ta" = (
 /obj/machinery/cryopod{
 	dir = 4
@@ -19114,26 +19170,6 @@
 /obj/structure/window/reinforced/fulltile,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Tv" = (
-/obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/taperecorder,
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = 24
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/control)
 "Tx" = (
 /obj/structure/table,
 /obj/item/paper_bin{
@@ -19262,6 +19298,23 @@
 /obj/item/clothing/head/helmet/space/plasmaman,
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
+"TT" = (
+/obj/structure/window{
+	dir = 8
+	},
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/turf/open/floor/holofloor{
+	icon_state = "white"
+	},
+/area/holodeck/rec_center/medical)
+"TU" = (
+/obj/machinery/stasis,
+/turf/open/floor/holofloor{
+	icon_state = "white"
+	},
+/area/holodeck/rec_center/medical)
 "TV" = (
 /obj/structure/table,
 /obj/item/stack/packageWrap,
@@ -19297,10 +19350,6 @@
 	},
 /turf/open/indestructible/hotelwood,
 /area/centcom/holding)
-"Ud" = (
-/obj/effect/turf_decal/stripes/corner,
-/turf/open/floor/plasteel,
-/area/slavers)
 "Ug" = (
 /obj/machinery/door/poddoor/shuttledock{
 	checkdir = 1;
@@ -19346,6 +19395,12 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plasteel,
 /area/tdome/tdomeobserve)
+"Uo" = (
+/obj/machinery/stasis{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/blue,
+/area/centcom/evac)
 "Up" = (
 /obj/structure/sign/departments/restroom{
 	pixel_y = 32
@@ -19425,22 +19480,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/slavers)
-"UA" = (
-/obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/taperecorder,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/evac)
 "UC" = (
 /obj/machinery/vending/cola,
 /turf/open/floor/plasteel,
@@ -19455,24 +19494,6 @@
 /obj/effect/light_emitter,
 /turf/open/floor/plating/asteroid/snow/airless,
 /area/syndicate_mothership)
-"UH" = (
-/obj/structure/table/wood,
-/obj/item/folder/red,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/restraints/handcuffs,
-/obj/item/assembly/flash/handheld,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
 "UI" = (
 /obj/machinery/door/airlock/wood{
 	id_tag = "Ninja4";
@@ -19678,22 +19699,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/slavers)
-"Vs" = (
-/obj/item/book/manual/splurt_space_law,
-/obj/item/taperecorder,
-/obj/structure/table/wood,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/control)
 "Vt" = (
 /obj/item/paper/fluff/stations/centcom/disk_memo,
 /obj/structure/noticeboard{
@@ -48053,7 +48058,7 @@ KO
 KV
 KV
 KV
-Lb
+Uo
 Lb
 Lp
 Lp
@@ -55181,7 +55186,7 @@ aa
 aa
 aa
 oe
-SO
+rk
 sq
 to
 uj
@@ -57253,7 +57258,7 @@ oA
 uV
 Bu
 BZ
-UH
+Cq
 mD
 aa
 aa
@@ -57492,7 +57497,7 @@ of
 oA
 oX
 pH
-SZ
+qb
 mD
 rs
 sw
@@ -58022,7 +58027,7 @@ zb
 pg
 Ac
 AK
-tf
+Bw
 pg
 Ct
 nT
@@ -62939,7 +62944,7 @@ JI
 JQ
 Ka
 JG
-Pe
+Kp
 IR
 KG
 Iv
@@ -63164,7 +63169,7 @@ tL
 io
 iu
 io
-Tv
+CH
 vM
 Ds
 DG
@@ -67274,7 +67279,7 @@ iu
 zI
 Ar
 nq
-BH
+we
 iu
 qv
 iu
@@ -67788,7 +67793,7 @@ iu
 zJ
 Ar
 nq
-BJ
+EZ
 iu
 lN
 iu
@@ -68535,7 +68540,7 @@ iH
 iq
 iA
 il
-NZ
+mU
 nt
 nO
 iC
@@ -71098,7 +71103,7 @@ aa
 aa
 aa
 in
-Vs
+kc
 kl
 kE
 lb
@@ -71390,7 +71395,7 @@ BP
 Cf
 Cc
 Dg
-UA
+DA
 VO
 WK
 WK
@@ -79194,7 +79199,7 @@ ct
 bH
 cQ
 cX
-db
+TT
 ac
 dq
 dM
@@ -79708,7 +79713,7 @@ cu
 bH
 bH
 bH
-dd
+TU
 ac
 ds
 dL
@@ -81199,7 +81204,7 @@ XS
 ZD
 Co
 Pi
-Ud
+rj
 Xn
 Xn
 Wg
@@ -82537,7 +82542,7 @@ cS
 cY
 dh
 bj
-OJ
+dy
 dV
 ep
 eB

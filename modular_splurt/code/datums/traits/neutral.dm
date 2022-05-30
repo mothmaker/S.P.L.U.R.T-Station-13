@@ -264,3 +264,49 @@
 	hydra.real_name = selhead
 	hydra.visible_message("<span class='notice'>[hydra.name] pulls the rest of their heads back; and puts [selhead]'s forward.</span>", \
 							"<span class='notice'>You are now talking as [selhead]!</span>", ignored_mobs=owner)
+
+//Own traits
+/datum/quirk/cum_sniff
+	name = "Genital Taster"
+	desc = "You've built so much experience savoring other people's genitals through your life that you can easily tell what liquids they're full of (besides blood in their vessels that is)"
+	value = 0
+	mob_trait = TRAIT_GFLUID_DETECT
+	gain_text = "<span class='notice'>You start getting peculiar smells from people's bits.</span>"
+	lose_text = "<span class='notice'>People's genitals start smelling all the same to you...</span>"
+	medical_record_text = "Patient attempted to get their doctor to drag his balls accross their face."
+
+/datum/quirk/fluid_infuser
+	name = "Fluid Infuser"
+	desc = "You just couldn't wait to get one of NanoTrasen's new fluid inducers when they first came out, so now you can hop in the station with editable titty milk!"
+	value = 0
+
+/datum/quirk/fluid_infuser/on_spawn()
+	. = ..()
+	var/obj/item/implant/genital_fluid/put_in = new
+	put_in.implant(quirk_holder, null, TRUE, TRUE)
+
+/datum/quirk/masked_mook
+	name = "Gas Mask Mook Syndrome"
+	desc = "For some reason you don't feel well without wearing some kind of gas mask."
+	gain_text = "<span class='danger'>You start feeling unwell without any gas mask on.</span>"
+	lose_text = "<span class='notice'>You no longer have a need to wear some gas mask.</span>"
+	value = 0
+	mood_quirk = TRUE
+	medical_record_text = "Patient feels more secure when wearing a gas mask."
+
+/datum/quirk/masked_mook/on_process()
+	var/mob/living/carbon/human/H = quirk_holder
+	var/obj/item/clothing/mask/gas/gasmask = H.get_item_by_slot(ITEM_SLOT_MASK)
+	if(istype(gasmask))
+		SEND_SIGNAL(quirk_holder, COMSIG_CLEAR_MOOD_EVENT, "masked_mook_incomplete")
+		SEND_SIGNAL(quirk_holder, COMSIG_ADD_MOOD_EVENT, "masked_mook", /datum/mood_event/masked_mook)
+	else
+		SEND_SIGNAL(quirk_holder, COMSIG_CLEAR_MOOD_EVENT, "masked_mook")
+		SEND_SIGNAL(quirk_holder, COMSIG_ADD_MOOD_EVENT, "masked_mook_incomplete", /datum/mood_event/masked_mook_incomplete)
+
+/datum/quirk/masked_mook/on_spawn()
+	. = ..()
+	var/mob/living/carbon/human/H = quirk_holder
+	var/obj/item/clothing/mask/gas/gasmask = new(get_turf(quirk_holder))
+	H.equip_to_slot(gasmask, ITEM_SLOT_MASK)
+	H.regenerate_icons()

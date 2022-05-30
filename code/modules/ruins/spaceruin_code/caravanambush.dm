@@ -53,6 +53,28 @@
 	shuttleId = "caravantrade1"
 	possible_destinations = "whiteship_away;whiteship_home;whiteship_z4;whiteship_lavaland;caravantrade1_custom;caravantrade1_ambush"
 
+/*
+/obj/machinery/computer/camera_advanced/shuttle_docker/caravan/Initialize(mapload)
+	. = ..()
+	GLOB.jam_on_wardec += src
+
+/obj/machinery/computer/camera_advanced/shuttle_docker/caravan/Destroy()
+	GLOB.jam_on_wardec -= src
+	return ..()
+
+/obj/machinery/computer/camera_advanced/shuttle_docker/caravan/trade1
+	name = "Small Freighter Navigation Computer"
+	desc = "Used to designate a precise transit location for the Small Freighter."
+	shuttleId = "caravantrade1"
+	lock_override = NONE
+	shuttlePortId = "caravantrade1_custom"
+	jumpto_ports = list("whiteship_away" = 1, "whiteship_home" = 1, "whiteship_z4" = 1, "caravantrade1_ambush" = 1)
+	view_range = 6.5
+	x_offset = -5
+	y_offset = -5
+	designate_time = 100
+*/
+
 /obj/machinery/computer/shuttle/caravan/pirate
 	name = "Pirate Cutter Shuttle Console"
 	desc = "Used to control the Pirate Cutter."

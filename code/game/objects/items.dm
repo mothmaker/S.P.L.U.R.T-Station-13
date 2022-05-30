@@ -177,7 +177,7 @@ GLOBAL_VAR_INIT(embedpocalypse, FALSE) // if true, all items will be able to emb
 	var/canMouseDown = FALSE
 
 
-/obj/item/Initialize()
+/obj/item/Initialize(mapload)
 
 	if(attack_verb)
 		attack_verb = typelist("attack_verb", attack_verb)
@@ -551,11 +551,11 @@ GLOBAL_VAR_INIT(embedpocalypse, FALSE) // if true, all items will be able to emb
 	item_flags |= IN_INVENTORY
 	if((item_flags & IN_STORAGE)) // Left storage item but somehow has the bitfield active still.
 		item_flags &= ~(IN_STORAGE)
-	// if(!initial)
-	// 	if(equip_sound && (slot_flags & slot))
-	// 		playsound(src, equip_sound, EQUIP_SOUND_VOLUME, TRUE, ignore_walls = FALSE)
-	// 	else if(slot == ITEM_SLOT_HANDS)
-	// 		playsound(src, pickup_sound, PICKUP_SOUND_VOLUME, ignore_walls = FALSE)
+	if(!initial)
+		if(equip_sound && (slot_flags & slot))
+			playsound(src, equip_sound, EQUIP_SOUND_VOLUME, TRUE, ignore_walls = FALSE)
+		else if(slot == ITEM_SLOT_HANDS)
+			playsound(src, pickup_sound, PICKUP_SOUND_VOLUME, ignore_walls = FALSE)
 	user.update_equipment_speed_mods()
 
 
@@ -851,9 +851,6 @@ GLOBAL_VAR_INIT(embedpocalypse, FALSE) // if true, all items will be able to emb
 /obj/item/attack_animal(mob/living/simple_animal/M)
 	if (obj_flags & CAN_BE_HIT)
 		return ..()
-	return 0
-
-/obj/item/mech_melee_attack(obj/mecha/M)
 	return 0
 
 /obj/item/burn()

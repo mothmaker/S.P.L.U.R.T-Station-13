@@ -70,6 +70,7 @@ SUBSYSTEM_DEF(ticker)
 
 	var/station_integrity = 100				// stored at roundend for use in some antag goals
 	var/emergency_reason
+	var/real_round_start_time = 0
 
 	/// If the gamemode fails to be run too many times, we swap to a preset gamemode, this should give admins time to set their preferred one
 	var/emergency_swap = 0
@@ -294,6 +295,8 @@ SUBSYSTEM_DEF(ticker)
 		cb.InvokeAsync()
 	LAZYCLEARLIST(round_start_events)
 
+	real_round_start_time = world.timeofday
+
 	log_world("Game start took [(world.timeofday - init_start)/10]s")
 	round_start_time = world.time
 	SSdbcore.SetRoundStart()
@@ -456,7 +459,7 @@ SUBSYSTEM_DEF(ticker)
 			m = pick(memetips)
 
 	if(m)
-		to_chat(world, "<span class='purple'><b>Tip of the round: </b>[html_encode(m)]</span>")
+		to_chat(world, examine_block("<span class='purple'><b>Tip of the round: </b>[html_encode(m)]</span>"))
 
 /datum/controller/subsystem/ticker/proc/check_queue()
 	var/hpc = CONFIG_GET(number/hard_popcap)

@@ -69,7 +69,7 @@
 	..()
 
 /datum/status_effect/vanguard_shield/Destroy()
-	qdel(progbar)
+	progbar.end_progress()
 	progbar = null
 	return ..()
 
@@ -272,7 +272,7 @@
 
 /datum/status_effect/blooddrunk
 	id = "blooddrunk"
-	duration = 10
+	duration = 20 //SPLURT CHANGE - Buffed by double because we were having issues with it processing
 	tick_interval = 0
 	alert_type = /atom/movable/screen/alert/status_effect/blooddrunk
 	var/last_health = 0
@@ -304,7 +304,7 @@
 		owner.toxloss *= 10
 		owner.oxyloss *= 10
 		owner.cloneloss *= 10
-		owner.staminaloss += -10 // CIT CHANGE - makes blooddrunk status effect not exhaust you
+		owner.staminaloss += -50 // SPLURT CHANGE - Prevents ANY stamina buildup while under Blood-drunks effect. Neccessary for hierophant.
 		owner.updatehealth()
 		last_health = owner.health
 		last_bruteloss = owner.getBruteLoss()
@@ -362,7 +362,7 @@
 
 		var/new_staminaloss = owner.getStaminaLoss()
 		if(new_staminaloss < last_staminaloss)
-			var/heal_amount = -5 // CIT CHANGE - makes blood drunk status effect not exhaust you
+			var/heal_amount = -25 // SPLURT CHANGE - Read above
 			owner.adjustStaminaLoss(heal_amount, FALSE)
 			new_staminaloss = owner.getStaminaLoss()
 			needs_health_update = TRUE
@@ -578,8 +578,12 @@
 /datum/status_effect/regenerative_core/on_apply()
 	. = ..()
 	ADD_TRAIT(owner, TRAIT_IGNOREDAMAGESLOWDOWN, "regenerative_core")
-
-	if(HAS_TRAIT(owner, TRAIT_ROBOTIC_ORGANISM))	//Robots can heal from cores, but only get 1/5th of the healing. They can use this to get past the damage threshhold however, and then regularely heal from there.
+	var/turf/T = get_turf(owner)
+	if(T && is_mining_level(T.z))
+		if(HAS_TRAIT(owner, TRAIT_ROBOTIC_ORGANISM))	//Robots can heal from cores, though they ""only"" heal 20 brute + burn damage each instead of 25
+			heal_amount *= 0.8
+	else
+		duration = 10 SECONDS
 		heal_amount *= 0.2
 	owner.adjustBruteLoss(-heal_amount, only_organic = FALSE)
 	if(!AmBloodsucker(owner))	//use your coffin you lazy bastard

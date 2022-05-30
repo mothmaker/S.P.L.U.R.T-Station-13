@@ -77,7 +77,7 @@
 	contains = list(/obj/item/gun/ballistic/automatic/pistol/enforcer,
 					/obj/item/gun/ballistic/automatic/pistol/enforcer,
 					/obj/item/gun/ballistic/automatic/pistol/enforcer)
-	crate_name = "enfocer pistol crate"
+	crate_name = "enforcer pistol crate"
 
 /datum/supply_pack/security/armory/cap_e45 // I am mad I even have to do this. -Radar Fuckers keep exploting this, moved it to the armory section
 	name = "Captain's Enforcer .45"
@@ -94,3 +94,12 @@
     /obj/item/ammo_box/magazine/e45/taser,
     /obj/item/ammo_box/magazine/e45/taser)
 	crate_name = "captain's .45"
+
+/datum/supply_pack/security/armory/blaster
+	name = "Pump-action Particle Blaster Crate"
+	desc = "Contains 3 Non-lethal Partical Blasters. Requires Armory access to open."
+	cost = 2500
+	contains = list(/obj/item/gun/energy/pumpaction/blaster,
+					/obj/item/gun/energy/pumpaction/blaster,
+					/obj/item/gun/energy/pumpaction/blaster)
+	crate_name = "Partical blasters crate"

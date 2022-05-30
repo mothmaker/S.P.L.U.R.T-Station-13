@@ -13,7 +13,9 @@
 		/obj/item/milking_machine/penis = 5,
 		/obj/item/clothing/neck/petcollar/spike = 5,
 		/obj/item/clothing/neck/petcollar/holo = 5,
-		/obj/item/clothing/neck/petcollar/casino = 5
+		/obj/item/clothing/neck/petcollar/casino = 5,
+		/obj/item/clothing/gloves/latexsleeves = 3,
+		/obj/item/genital_equipment/sounding = 4
 	)
 	var/list/extra_contraband = list(
 		//Lewd-Clothes
@@ -26,6 +28,10 @@
 		/obj/item/dildo/flared/huge = 3,
 		/obj/item/clothing/neck/petcollar/locked/holo = 2
 	)
+	var/list/extra_premium = list(
+		/obj/item/clothing/mask/muzzle/ballgag = 3
+	)
 	LAZYADD(products, extra_products)
 	LAZYADD(contraband, extra_contraband)
+	LAZYADD(premium, extra_premium)
 	. = ..()

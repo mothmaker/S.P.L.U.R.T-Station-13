@@ -9,6 +9,7 @@
 	slot_flags = ITEM_SLOT_BELT
 	attack_verb = list("whipped", "lashed", "disciplined")
 	max_integrity = 300
+	equip_sound = 'sound/items/equip/toolbelt_equip.ogg'
 	var/content_overlays = FALSE //If this is true, the belt will gain overlays based on what it's holding
 	var/onmob_overlays = FALSE //worn counterpart of the above.
 
@@ -28,7 +29,7 @@
 		for(var/obj/item/I in contents)
 			. += I.get_worn_belt_overlay(icon_file)
 
-/obj/item/storage/belt/Initialize()
+/obj/item/storage/belt/Initialize(mapload)
 	. = ..()
 	update_icon()
 
@@ -44,6 +45,8 @@
 	item_state = "utility"
 	content_overlays = TRUE
 	custom_premium_price = 300
+	drop_sound = 'sound/items/handling/toolbelt_drop.ogg'
+	pickup_sound = 'sound/items/handling/toolbelt_pickup.ogg'
 	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE //because this is easier than trying to have showers wash all contents.
 
 /obj/item/storage/belt/utility/ComponentInitialize()
@@ -371,7 +374,7 @@
 /obj/item/storage/belt/military/snack
 	name = "tactical snack rig"
 
-/obj/item/storage/belt/military/snack/Initialize()
+/obj/item/storage/belt/military/snack/Initialize(mapload)
 	. = ..()
 	var/sponsor = pick("DonkCo", "Waffle Co.", "Roffle Co.", "Gorlax Marauders", "Tiger Cooperative")
 	desc = "A set of snack-tical webbing worn by athletes of the [sponsor] VR sports division."

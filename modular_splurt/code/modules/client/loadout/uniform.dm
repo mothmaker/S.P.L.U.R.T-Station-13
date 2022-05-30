@@ -8,20 +8,26 @@
 	name = "Lumberjack Outfit"
 	description = "Makes you want to pull a genocide on trees."
 	path = /obj/item/clothing/under/lumberjack
-/* Redundent
-/datum/gear/uniform/latex
-	name = "Full latex jumpsuit"
-	path = /obj/item/clothing/under/latex
-	cost = 1 */
 
-/*
-/datum/gear/latex/uniform/half
-	name = "Latex bodysuit"
+/datum/gear/uniform/halfsuit
+	name = "Half Latex Catsuit"
 	path = /obj/item/clothing/under/latex/half
-*/
+
 /datum/gear/uniform/latex
-	name = "Latex Catsuit"
+	name = "Full Latex Catsuit"
 	path = /obj/item/clothing/under/misc/latex_catsuit
+
+/datum/gear/uniform/shorts/redwshort
+	name = "Red workout short"
+	path = /obj/item/clothing/under/shorts/redwshort
+
+/datum/gear/uniform/shorts/yellowwshort
+	name = "Yellow workout short"
+	path = /obj/item/clothing/under/shorts/yellowwshort
+
+/datum/gear/uniform/shorts/pinkwshort
+	name = "Pink workout short"
+	path = /obj/item/clothing/under/shorts/pinkwshort
 
 // Suggestion #151
 /datum/gear/uniform/waiter
@@ -35,6 +41,18 @@
 /datum/gear/uniform/bunnysuitwhite
 	name = "white bunny outfit"
 	path = /obj/item/clothing/under/bunnysuit/white
+
+/datum/gear/uniform/raccveralls
+	name = "form fitting overalls"
+	path = /obj/item/clothing/under/raccveralls
+
+/datum/gear/uniform/sexyoffice
+	name = "Revealing office uniform"
+	path = /obj/item/clothing/under/officesexy
+
+/datum/gear/uniform/vaultsuit
+	name = "vault suit"
+	path = /obj/item/clothing/under/vaultsuit
 
 // Updates restrictions to accomodate new jobs (mostly trekkie stuff)
 /datum/gear/uniform/grey/sec

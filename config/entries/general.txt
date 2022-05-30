@@ -329,6 +329,9 @@ ROUNDSTART_RACES arachnid
 ## SPLURT races (Or races that for some reason didn't appear in this txt file originally for whatever reason)
 ROUNDSTART_RACES mammal_synthetic
 ROUNDSTART_RACES dullahan
+ROUNDSTART_RACES spectre_bot
+ROUNDSTART_RACES vampire_roundstart
+ROUNDSTART_RACES shadekin
 
 ##-------------------------------------------------------------------------------------------
 

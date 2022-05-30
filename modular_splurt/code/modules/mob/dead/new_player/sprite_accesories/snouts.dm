@@ -85,13 +85,13 @@
 	matrixed_sections = MATRIX_RED
 
 /datum/sprite_accessory/snouts/mam_snouts/fchemlight
-	name = "Chemlight (Top)"
+	name = "RadDog (Top)"
 	icon = 'modular_splurt/icons/mob/mam_snouts.dmi'
 	icon_state = "fchemlight"
 	matrixed_sections = MATRIX_ALL
 
 /datum/sprite_accessory/snouts/mam_snouts/chemlight
-	name = "Chemlight"
+	name = "RadDog"
 	icon = 'modular_splurt/icons/mob/mam_snouts.dmi'
 	icon_state = "chemlight"
 	matrixed_sections = MATRIX_ALL
@@ -107,3 +107,84 @@
 	icon = 'modular_splurt/icons/mob/mam_snouts.dmi'
 	icon_state = "stubby"
 	matrixed_sections = MATRIX_RED_GREEN
+
+/datum/sprite_accessory/snouts/mam_snouts/bigmandible // sarcoph @ hyperstation, march 2022
+	name = "Big Mandibles (Hyper)"
+	icon_state = "bigmandible"
+	icon = 'modular_splurt/icons/mob/mam_snouts.dmi'
+	matrixed_sections = MATRIX_RED
+	recommended_species = list("insect")
+
+/datum/sprite_accessory/snouts/mam_snouts/proboscis // sarcoph @ hyperstation, march 2022
+	name = "Proboscis (Hyper)"
+	icon_state = "proboscis"
+	icon = 'modular_splurt/icons/mob/mam_snouts.dmi'
+	matrixed_sections = MATRIX_RED
+	recommended_species = list("insect")
+
+/datum/sprite_accessory/snouts/mam_snouts/rhinobeetle // sarcoph @ hyperstation, march 2022
+	name = "Rhino Beetle (Hyper)"
+	icon_state = "rhinobeetle"
+	icon = 'modular_splurt/icons/mob/mam_snouts.dmi'
+	matrixed_sections = MATRIX_RED
+	recommended_species = list("insect")
+
+/datum/sprite_accessory/snouts/mam_snouts/scarab // sarcoph @ hyperstation, march 2022
+	name = "Scarab Beetle (Hyper)"
+	icon_state = "scarab"
+	icon = 'modular_splurt/icons/mob/mam_snouts.dmi'
+	matrixed_sections = MATRIX_RED
+	recommended_species = list("insect")
+
+/datum/sprite_accessory/snouts/mam_snouts/smallmandible // sarcoph @ hyperstation, march 2022
+	name = "Small Mandibles (Hyper)"
+	icon_state = "smallmandible"
+	icon = 'modular_splurt/icons/mob/mam_snouts.dmi'
+	matrixed_sections = MATRIX_RED
+	recommended_species = list("insect")
+
+/datum/sprite_accessory/snouts/mam_snouts/spider // sarcoph @ hyperstation, march 2022
+	name = "Spider (Hyper)"
+	icon_state = "spider"
+	icon = 'modular_splurt/icons/mob/mam_snouts.dmi'
+	matrixed_sections = MATRIX_RED
+	recommended_species = list("insect")
+
+/datum/sprite_accessory/snouts/mam_snouts/tarantula // sarcoph @ hyperstation, march 2022
+	name = "Tarantula (Hyper)"
+	icon_state = "tarantula"
+	icon = 'modular_splurt/icons/mob/mam_snouts.dmi'
+	matrixed_sections = MATRIX_RED
+	recommended_species = list("insect")
+
+/datum/sprite_accessory/snouts/mam_snouts/vulp
+	name = "Vulp"
+	icon = 'modular_splurt/icons/mob/mam_snouts.dmi'
+	icon_state = "vulp"
+	matrixed_sections = MATRIX_RED
+
+/datum/sprite_accessory/snouts/mam_snouts/vulp_alt
+	name = "Vulp Alt"
+	icon = 'modular_splurt/icons/mob/mam_snouts.dmi'
+	icon_state = "vulp2"
+	matrixed_sections = MATRIX_RED_GREEN
+
+/datum/sprite_accessory/snouts/mam_snouts/easterndragon
+	name = "Eastern Dragon"
+	icon_state = "easterndw"
+	icon = 'modular_splurt/icons/mob/mam_snouts.dmi'
+	matrixed_sections = MATRIX_RED_GREEN
+
+/datum/sprite_accessory/snouts/mam_snouts/easterndragon/no_whiskers
+	name = "Eastern Dragon - No Whiskers"
+	icon_state = "easterndnw"
+
+/datum/sprite_accessory/snouts/mam_snouts/feasterndragon
+	name = "Eastern Dragon (Top)"
+	icon_state = "feasterndw"
+	icon = 'modular_splurt/icons/mob/mam_snouts.dmi'
+	matrixed_sections = MATRIX_RED_GREEN
+
+/datum/sprite_accessory/snouts/mam_snouts/feasterndragon/no_whiskers
+	name = "Eastern Dragon - No Whiskers (Top)"
+	icon_state = "feasterndnw"
